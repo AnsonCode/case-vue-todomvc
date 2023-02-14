@@ -1,0 +1,596 @@
+type Query {
+  todo_findFirstTodo(where: todo_TodoWhereInput, orderBy: [todo_TodoOrderByWithRelationInput], cursor: todo_TodoWhereUniqueInput, take: Int, skip: Int, distinct: [todo_TodoScalarFieldEnum]): todo_Todo
+  todo_findFirstTodoOrThrow(where: todo_TodoWhereInput, orderBy: [todo_TodoOrderByWithRelationInput], cursor: todo_TodoWhereUniqueInput, take: Int, skip: Int, distinct: [todo_TodoScalarFieldEnum]): todo_Todo
+  todo_findManyTodo(where: todo_TodoWhereInput, orderBy: [todo_TodoOrderByWithRelationInput], cursor: todo_TodoWhereUniqueInput, take: Int, skip: Int, distinct: [todo_TodoScalarFieldEnum]): [todo_Todo]!
+  todo_aggregateTodo(where: todo_TodoWhereInput, orderBy: [todo_TodoOrderByWithRelationInput], cursor: todo_TodoWhereUniqueInput, take: Int, skip: Int): todo_AggregateTodo!
+  todo_groupByTodo(where: todo_TodoWhereInput, orderBy: [todo_TodoOrderByWithAggregationInput], by: [todo_TodoScalarFieldEnum]!, having: todo_TodoScalarWhereWithAggregatesInput, take: Int, skip: Int): [todo_TodoGroupByOutputType]!
+  todo_findUniqueTodo(where: todo_TodoWhereUniqueInput!): todo_Todo
+  todo_findUniqueTodoOrThrow(where: todo_TodoWhereUniqueInput!): todo_Todo
+}
+
+type Mutation {
+  todo_createOneTodo(data: todo_TodoCreateInput!): todo_Todo
+  todo_upsertOneTodo(where: todo_TodoWhereUniqueInput!, create: todo_TodoCreateInput!, update: todo_TodoUpdateInput!): todo_Todo
+  todo_deleteOneTodo(where: todo_TodoWhereUniqueInput!): todo_Todo
+  todo_updateOneTodo(data: todo_TodoUpdateInput!, where: todo_TodoWhereUniqueInput!): todo_Todo
+  todo_updateManyTodo(data: todo_TodoUpdateManyMutationInput!, where: todo_TodoWhereInput): todo_AffectedRowsOutput
+  todo_deleteManyTodo(where: todo_TodoWhereInput): todo_AffectedRowsOutput
+}
+
+
+
+input todo_NestedStringFilter {
+  equals: String
+  in: [String]
+  notIn: [String]
+  lt: String
+  lte: String
+  gt: String
+  gte: String
+  contains: String
+  startsWith: String
+  endsWith: String
+  not: todo_NestedStringFilter
+}
+
+input todo_StringFilter {
+  equals: String
+  in: [String]
+  notIn: [String]
+  lt: String
+  lte: String
+  gt: String
+  gte: String
+  contains: String
+  startsWith: String
+  endsWith: String
+  not: todo_NestedStringFilter
+}
+
+input todo_NestedBoolFilter {
+  equals: Boolean
+  not: todo_NestedBoolFilter
+}
+
+input todo_BoolFilter {
+  equals: Boolean
+  not: todo_NestedBoolFilter
+}
+
+input todo_TodoWhereInput {
+  AND: todo_TodoWhereInput
+  OR: [todo_TodoWhereInput]
+  NOT: todo_TodoWhereInput
+  id: todo_StringFilter
+  title: todo_StringFilter
+  completed: todo_BoolFilter
+}
+
+enum todo_SortOrder {
+  asc
+  desc
+}
+
+input todo_TodoOrderByWithRelationInput {
+  id: todo_SortOrder
+  title: todo_SortOrder
+  completed: todo_SortOrder
+}
+
+input todo_TodoWhereUniqueInput {
+  id: String
+}
+
+enum todo_TodoScalarFieldEnum {
+  id
+  title
+  completed
+}
+
+type todo_Todo {
+  id: String!
+  title: String!
+  completed: Boolean!
+  _join: Query!
+}
+
+type todo_TodoCountAggregateOutputType {
+  id: Int!
+  title: Int!
+  completed: Int!
+  _all: Int!
+  _join: Query!
+}
+
+type todo_TodoMinAggregateOutputType {
+  id: String
+  title: String
+  completed: Boolean
+  _join: Query!
+}
+
+type todo_TodoMaxAggregateOutputType {
+  id: String
+  title: String
+  completed: Boolean
+  _join: Query!
+}
+
+type todo_AggregateTodo {
+  _count: todo_TodoCountAggregateOutputType
+  _min: todo_TodoMinAggregateOutputType
+  _max: todo_TodoMaxAggregateOutputType
+  _join: Query!
+}
+
+input todo_TodoCountOrderByAggregateInput {
+  id: todo_SortOrder
+  title: todo_SortOrder
+  completed: todo_SortOrder
+}
+
+input todo_TodoMaxOrderByAggregateInput {
+  id: todo_SortOrder
+  title: todo_SortOrder
+  completed: todo_SortOrder
+}
+
+input todo_TodoMinOrderByAggregateInput {
+  id: todo_SortOrder
+  title: todo_SortOrder
+  completed: todo_SortOrder
+}
+
+input todo_TodoOrderByWithAggregationInput {
+  id: todo_SortOrder
+  title: todo_SortOrder
+  completed: todo_SortOrder
+  _count: todo_TodoCountOrderByAggregateInput
+  _max: todo_TodoMaxOrderByAggregateInput
+  _min: todo_TodoMinOrderByAggregateInput
+}
+
+input todo_NestedIntFilter {
+  equals: Int
+  in: [Int]
+  notIn: [Int]
+  lt: Int
+  lte: Int
+  gt: Int
+  gte: Int
+  not: todo_NestedIntFilter
+}
+
+input todo_NestedStringWithAggregatesFilter {
+  equals: String
+  in: [String]
+  notIn: [String]
+  lt: String
+  lte: String
+  gt: String
+  gte: String
+  contains: String
+  startsWith: String
+  endsWith: String
+  not: todo_NestedStringWithAggregatesFilter
+  _count: todo_NestedIntFilter
+  _min: todo_NestedStringFilter
+  _max: todo_NestedStringFilter
+}
+
+input todo_StringWithAggregatesFilter {
+  equals: String
+  in: [String]
+  notIn: [String]
+  lt: String
+  lte: String
+  gt: String
+  gte: String
+  contains: String
+  startsWith: String
+  endsWith: String
+  not: todo_NestedStringWithAggregatesFilter
+  _count: todo_NestedIntFilter
+  _min: todo_NestedStringFilter
+  _max: todo_NestedStringFilter
+}
+
+input todo_NestedBoolWithAggregatesFilter {
+  equals: Boolean
+  not: todo_NestedBoolWithAggregatesFilter
+  _count: todo_NestedIntFilter
+  _min: todo_NestedBoolFilter
+  _max: todo_NestedBoolFilter
+}
+
+input todo_BoolWithAggregatesFilter {
+  equals: Boolean
+  not: todo_NestedBoolWithAggregatesFilter
+  _count: todo_NestedIntFilter
+  _min: todo_NestedBoolFilter
+  _max: todo_NestedBoolFilter
+}
+
+input todo_TodoScalarWhereWithAggregatesInput {
+  AND: todo_TodoScalarWhereWithAggregatesInput
+  OR: [todo_TodoScalarWhereWithAggregatesInput]
+  NOT: todo_TodoScalarWhereWithAggregatesInput
+  id: todo_StringWithAggregatesFilter
+  title: todo_StringWithAggregatesFilter
+  completed: todo_BoolWithAggregatesFilter
+}
+
+type todo_TodoGroupByOutputType {
+  id: String!
+  title: String!
+  completed: Boolean!
+  _count: todo_TodoCountAggregateOutputType
+  _min: todo_TodoMinAggregateOutputType
+  _max: todo_TodoMaxAggregateOutputType
+  _join: Query!
+}
+
+input todo_TodoCreateInput {
+  id: String!
+  title: String!
+  completed: Boolean!
+}
+
+input todo_StringFieldUpdateOperationsInput {
+  set: String
+}
+
+input todo_BoolFieldUpdateOperationsInput {
+  set: Boolean
+}
+
+input todo_TodoUpdateInput {
+  id: todo_StringFieldUpdateOperationsInput
+  title: todo_StringFieldUpdateOperationsInput
+  completed: todo_BoolFieldUpdateOperationsInput
+}
+
+input todo_TodoUpdateManyMutationInput {
+  id: todo_StringFieldUpdateOperationsInput
+  title: todo_StringFieldUpdateOperationsInput
+  completed: todo_BoolFieldUpdateOperationsInput
+}
+
+type todo_AffectedRowsOutput {
+  count: Int!
+  _join: Query!
+}
+
+scalar DateTime
+
+scalar todo_Json
+
+scalar UUID
+
+scalar BigInt
+
+scalar todo_Decimal
+
+scalar todo_Bytes
+
+directive @rbac(
+  
+  """the user must match all roles"""
+  requireMatchAll: [WG_ROLE]
+  
+  """the user must match at least one of the roles"""
+  requireMatchAny: [WG_ROLE]
+  
+  """the user must not match all of the roles"""
+  denyMatchAll: [WG_ROLE]
+  
+  """the user must not match any of the roles"""
+  denyMatchAny: [WG_ROLE]
+) on QUERY | MUTATION | SUBSCRIPTION
+
+enum WG_ROLE {
+  admin
+  user
+}
+
+directive @fromClaim(name: Claim) on VARIABLE_DEFINITION
+
+enum Claim {
+  USERID
+  EMAIL
+  EMAIL_VERIFIED
+  NAME
+  NICKNAME
+  LOCATION
+  PROVIDER
+}
+
+directive @hooksVariable on VARIABLE_DEFINITION
+
+directive @jsonSchema(
+  
+  """
+  The value of both of these keywords MUST be a string.
+  
+  Both of these keywords can be used to decorate a user interface with
+  information about the data produced by this user interface.  A title
+  will preferably be short, whereas a description will provide
+  explanation about the purpose of the instance described by this
+  schema.
+  """
+  title: String
+  
+  """
+  The value of both of these keywords MUST be a string.
+  
+  Both of these keywords can be used to decorate a user interface with
+  information about the data produced by this user interface.  A title
+  will preferably be short, whereas a description will provide
+  explanation about the purpose of the instance described by this
+  schema.
+  """
+  description: String
+  
+  """
+  The value of "multipleOf" MUST be a number, strictly greater than 0.
+  
+  A numeric instance is valid only if division by this keyword's value
+  results in an integer.
+  """
+  multipleOf: Int
+  
+  """
+  The value of "maximum" MUST be a number, representing an inclusive
+  upper limit for a numeric instance.
+  
+  If the instance is a number, then this keyword validates only if the
+  instance is less than or exactly equal to "maximum".
+  """
+  maximum: Int
+  
+  """
+  The value of "exclusiveMaximum" MUST be number, representing an
+  exclusive upper limit for a numeric instance.
+  
+  If the instance is a number, then the instance is valid only if it
+  has a value strictly less than (not equal to) "exclusiveMaximum".
+  """
+  exclusiveMaximum: Int
+  
+  """
+  The value of "minimum" MUST be a number, representing an inclusive
+  lower limit for a numeric instance.
+  
+  If the instance is a number, then this keyword validates only if the
+  instance is greater than or exactly equal to "minimum".
+  """
+  minimum: Int
+  
+  """
+  The value of "exclusiveMinimum" MUST be number, representing an
+  exclusive lower limit for a numeric instance.
+  
+  If the instance is a number, then the instance is valid only if it
+  has a value strictly greater than (not equal to) "exclusiveMinimum".
+  """
+  exclusiveMinimum: Int
+  
+  """
+  The value of this keyword MUST be a non-negative integer.
+  
+  A string instance is valid against this keyword if its length is less
+  than, or equal to, the value of this keyword.
+  
+  The length of a string instance is defined as the number of its
+  characters as defined by RFC 7159 [RFC7159].
+  """
+  maxLength: Int
+  
+  """
+  The value of this keyword MUST be a non-negative integer.
+  
+  A string instance is valid against this keyword if its length is
+  greater than, or equal to, the value of this keyword.
+  
+  The length of a string instance is defined as the number of its
+  characters as defined by RFC 7159 [RFC7159].
+  
+  Omitting this keyword has the same behavior as a value of 0.
+  """
+  minLength: Int
+  
+  """
+  The value of this keyword MUST be a string.  This string SHOULD be a
+  valid regular expression, according to the ECMA 262 regular
+  expression dialect.
+  
+  A string instance is considered valid if the regular expression
+  matches the instance successfully.  Recall: regular expressions are
+  not implicitly anchored.
+  """
+  pattern: String
+  
+  """
+  The value of this keyword MUST be a non-negative integer.
+  
+  An array instance is valid against "maxItems" if its size is less
+  than, or equal to, the value of this keyword.
+  """
+  maxItems: Int
+  
+  """
+  The value of this keyword MUST be a non-negative integer.
+  
+  An array instance is valid against "minItems" if its size is greater
+  than, or equal to, the value of this keyword.
+  
+  Omitting this keyword has the same behavior as a value of 0.
+  """
+  minItems: Int
+  
+  """
+  The value of this keyword MUST be a boolean.
+  
+  If this keyword has boolean value false, the instance validates
+  successfully.  If it has boolean value true, the instance validates
+  successfully if all of its elements are unique.
+  
+  Omitting this keyword has the same behavior as a value of false.
+  """
+  uniqueItems: Boolean
+  commonPattern: COMMON_REGEX_PATTERN
+) on VARIABLE_DEFINITION
+
+enum COMMON_REGEX_PATTERN {
+  EMAIL
+  DOMAIN
+}
+
+"""
+The directive @injectCurrentDateTime injects a DateTime string of the current date and time into the variable.
+This variable MUST be a string compatible scalar. 
+
+The default format, is: ISO 8601
+If no format is chosen, the default format is used.
+Custom formats are allowed by specifying a format conforming to the Golang specification for specifying a date time format.
+"""
+directive @injectCurrentDateTime(
+  format: WunderGraphDateTimeFormat = ISO8601
+  
+  """customFormat must conform to the Golang specification for specifying a date time format"""
+  customFormat: String
+) on VARIABLE_DEFINITION
+
+enum WunderGraphDateTimeFormat {
+  
+  """2006-01-02T15:04:05-0700"""
+  ISO8601
+  
+  """Mon Jan _2 15:04:05 2006"""
+  ANSIC
+  
+  """Mon Jan _2 15:04:05 MST 2006"""
+  UnixDate
+  
+  """Mon Jan 02 15:04:05 -0700 2006"""
+  RubyDate
+  
+  """02 Jan 06 15:04 MST"""
+  RFC822
+  
+  """02 Jan 06 15:04 -0700"""
+  RFC822Z
+  
+  """Monday, 02-Jan-06 15:04:05 MST"""
+  RFC850
+  
+  """Mon, 02 Jan 2006 15:04:05 MST"""
+  RFC1123
+  
+  """Mon, 02 Jan 2006 15:04:05 -0700"""
+  RFC1123Z
+  
+  """2006-01-02T15:04:05Z07:00"""
+  RFC3339
+  
+  """2006-01-02T15:04:05.999999999Z07:00"""
+  RFC3339Nano
+  
+  """3:04PM"""
+  Kitchen
+  
+  """Jan _2 15:04:05"""
+  Stamp
+  
+  """Jan _2 15:04:05.000"""
+  StampMilli
+  
+  """Jan _2 15:04:05.000000"""
+  StampMicro
+  
+  """Jan _2 15:04:05.000000000"""
+  StampNano
+}
+
+"""
+The directive @injectGeneratedUUID injects a generated UUID into the variable.
+This variable MUST be a string.
+At the same time, it removes the variable from the input definition,
+disallowing the user to supply it.
+
+This means, the UUID is 100% generated server-side and can be considered untempered.
+"""
+directive @injectGeneratedUUID on VARIABLE_DEFINITION
+
+"""
+The @internalOperation Directive marks an Operation as internal.
+By doing so, the Operation is no longer accessible from the public API.
+It can only be accessed by internal services, like hooks.
+"""
+directive @internalOperation on QUERY | MUTATION | SUBSCRIPTION
+
+"""The directive @injectEnvironmentVariable allows you to inject an environment variable into the variable definition."""
+directive @injectEnvironmentVariable(name: String!) on VARIABLE_DEFINITION
+
+"""
+The @export directive instructs the Execution Planner to export the field during the execution into the variable of the 'as' argument.
+As the execution is depth first, a field can only be used after it has been exported.
+Additionally, a field can only be used after using the '_join' field or on a different data source.
+It's not possible to export a field and use it in for the same data source.
+
+Note that the @export directive only works on fields that return a single value.
+It's not possible to export a list or object field.
+"""
+directive @export(
+  
+  """The argument 'as' is the name of the variable to export the field to."""
+  as: String!
+) on FIELD
+
+"""
+The directive @internal marks a variable definition as internal so that clients can't access it.
+The field is also not visible in the public API.
+It's only being used as an internal variable to export fields into.
+"""
+directive @internal on VARIABLE_DEFINITION
+
+"""
+The @transform directive allows to apply transformations to the response.
+By applying the directive, the shape of the response can be altered,
+which will also modify the JSON-Schema of the response.
+That is, you will keep full type safety and code-generation for transformed fields.
+"""
+directive @transform(
+  
+  """
+  Using the 'get' transformation allows you to extract a nested field using a JSON path.
+  This is useful to unnest data, e.g. when using the '_join' field, which adds an extra layer of nesting.
+  
+  Example:
+  
+  query GetName {
+  name: me @transform(get: "info.name") {
+      info {
+          name
+      }
+  }
+  }
+  
+  Before the transformation, the resolve looks like this:
+  
+  {
+  "name": {
+      "info": {
+          "name": "John Doe"
+      }
+  }
+  }
+  
+  With the transformation applied, the response will be reshaped like this:
+  
+  {
+  "name": "John Doe"
+  }
+  """
+  get: String
+) on FIELD

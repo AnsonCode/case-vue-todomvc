@@ -1,0 +1,5 @@
+mutation MyQuery($id: String!, $title: String!) {
+  todo_updateOneTodo(data: {title: {set: $title}}, where: {id: $id}) {
+    id
+  }
+}

@@ -1,0 +1,5 @@
+mutation MyQuery($id: String!) {
+  todo_deleteOneTodo(where: {id: $id}) {
+    id
+  }
+}

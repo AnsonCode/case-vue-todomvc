@@ -1,0 +1,409 @@
+{
+    "swagger": "2.0",
+    "info": {
+        "description": "fire_boom",
+        "title": "fire_boom",
+        "version": "v1"
+    },
+    "host": "127.0.0.1:9991",
+    "paths": {
+        "/app/main/operations/CompleteAllTodos": {
+            "post": {
+                "description": "```graphql\nmutation MyQuery($completed: Boolean!) {\n  data: todo_updateManyTodo(data: {completed: {set: $completed}}) {\n    count\n  }\n}\n```",
+                "produces": [
+                    "application/json"
+                ],
+                "summary": "POST /app/main/operations/CompleteAllTodos",
+                "operationId": "CompleteAllTodos",
+                "parameters": [
+                    {
+                        "name": "key",
+                        "in": "body",
+                        "schema": {
+                            "type": "object",
+                            "required": [
+                                "completed"
+                            ],
+                            "properties": {
+                                "completed": {
+                                    "type": "boolean"
+                                }
+                            },
+                            "additionalProperties": false
+                        }
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "OK",
+                        "schema": {
+                            "type": "object",
+                            "properties": {
+                                "data": {
+                                    "type": "object",
+                                    "properties": {
+                                        "data": {
+                                            "type": "object",
+                                            "required": [
+                                                "count"
+                                            ],
+                                            "properties": {
+                                                "count": {
+                                                    "type": "integer"
+                                                }
+                                            }
+                                        }
+                                    },
+                                    "additionalProperties": false
+                                }
+                            },
+                            "additionalProperties": false
+                        }
+                    }
+                }
+            }
+        },
+        "/app/main/operations/CompleteTodo": {
+            "post": {
+                "description": "```graphql\nmutation MyQuery($completed: Boolean = false, $id: String = \"\") {\n  data: todo_updateOneTodo(data: {completed: {set: $completed}}, where: {id: $id}) {\n    id\n  }\n}\n```",
+                "produces": [
+                    "application/json"
+                ],
+                "summary": "POST /app/main/operations/CompleteTodo",
+                "operationId": "CompleteTodo",
+                "parameters": [
+                    {
+                        "name": "key",
+                        "in": "body",
+                        "schema": {
+                            "type": "object",
+                            "properties": {
+                                "completed": {
+                                    "type": [
+                                        "boolean",
+                                        "null"
+                                    ]
+                                },
+                                "id": {
+                                    "type": [
+                                        "string",
+                                        "null"
+                                    ]
+                                }
+                            },
+                            "additionalProperties": false
+                        }
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "OK",
+                        "schema": {
+                            "type": "object",
+                            "properties": {
+                                "data": {
+                                    "type": "object",
+                                    "properties": {
+                                        "data": {
+                                            "type": "object",
+                                            "required": [
+                                                "id"
+                                            ],
+                                            "properties": {
+                                                "id": {
+                                                    "type": "string"
+                                                }
+                                            }
+                                        }
+                                    },
+                                    "additionalProperties": false
+                                }
+                            },
+                            "additionalProperties": false
+                        }
+                    }
+                }
+            }
+        },
+        "/app/main/operations/CreateTodo": {
+            "post": {
+                "description": "```graphql\nmutation MyQuery($id: String! @injectGeneratedUUID, $title: String!) {\n  data: todo_createOneTodo(data: {id: $id, title: $title, completed: false}) {\n    id\n    completed\n    title\n  }\n}\n```",
+                "produces": [
+                    "application/json"
+                ],
+                "summary": "POST /app/main/operations/CreateTodo",
+                "operationId": "CreateTodo",
+                "parameters": [
+                    {
+                        "name": "key",
+                        "in": "body",
+                        "schema": {
+                            "type": "object",
+                            "required": [
+                                "title"
+                            ],
+                            "properties": {
+                                "title": {
+                                    "type": "string"
+                                }
+                            },
+                            "additionalProperties": false
+                        }
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "OK",
+                        "schema": {
+                            "type": "object",
+                            "properties": {
+                                "data": {
+                                    "type": "object",
+                                    "properties": {
+                                        "data": {
+                                            "type": "object",
+                                            "required": [
+                                                "id",
+                                                "completed",
+                                                "title"
+                                            ],
+                                            "properties": {
+                                                "completed": {
+                                                    "type": "boolean"
+                                                },
+                                                "id": {
+                                                    "type": "string"
+                                                },
+                                                "title": {
+                                                    "type": "string"
+                                                }
+                                            }
+                                        }
+                                    },
+                                    "additionalProperties": false
+                                }
+                            },
+                            "additionalProperties": false
+                        }
+                    }
+                }
+            }
+        },
+        "/app/main/operations/GetAllTodos": {
+            "get": {
+                "description": "```graphql\nquery MyQuery {\n  data: todo_findManyTodo {\n    completed\n    id\n    title\n  }\n}\n```",
+                "produces": [
+                    "application/json"
+                ],
+                "summary": "GET /app/main/operations/GetAllTodos",
+                "operationId": "GetAllTodos",
+                "responses": {
+                    "200": {
+                        "description": "OK",
+                        "schema": {
+                            "type": "object",
+                            "properties": {
+                                "data": {
+                                    "type": "object",
+                                    "required": [
+                                        "data"
+                                    ],
+                                    "properties": {
+                                        "data": {
+                                            "type": "array",
+                                            "items": {
+                                                "type": "object",
+                                                "required": [
+                                                    "completed",
+                                                    "id",
+                                                    "title"
+                                                ],
+                                                "properties": {
+                                                    "completed": {
+                                                        "type": "boolean"
+                                                    },
+                                                    "id": {
+                                                        "type": "string"
+                                                    },
+                                                    "title": {
+                                                        "type": "string"
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    },
+                                    "additionalProperties": false
+                                }
+                            },
+                            "additionalProperties": false
+                        }
+                    }
+                }
+            }
+        },
+        "/app/main/operations/RemoveCompleted": {
+            "post": {
+                "description": "```graphql\nmutation MyQuery {\n  data: todo_deleteManyTodo(where: {completed: {equals: true}}) {\n    count\n  }\n}\n```",
+                "produces": [
+                    "application/json"
+                ],
+                "summary": "POST /app/main/operations/RemoveCompleted",
+                "operationId": "RemoveCompleted",
+                "parameters": [
+                    {
+                        "name": "key",
+                        "in": "body",
+                        "schema": {
+                            "type": "object",
+                            "additionalProperties": false
+                        }
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "OK",
+                        "schema": {
+                            "type": "object",
+                            "properties": {
+                                "data": {
+                                    "type": "object",
+                                    "properties": {
+                                        "data": {
+                                            "type": "object",
+                                            "required": [
+                                                "count"
+                                            ],
+                                            "properties": {
+                                                "count": {
+                                                    "type": "integer"
+                                                }
+                                            }
+                                        }
+                                    },
+                                    "additionalProperties": false
+                                }
+                            },
+                            "additionalProperties": false
+                        }
+                    }
+                }
+            }
+        },
+        "/app/main/operations/RemoveTodo": {
+            "post": {
+                "description": "```graphql\nmutation MyQuery($id: String!) {\n  todo_deleteOneTodo(where: {id: $id}) {\n    id\n  }\n}\n```",
+                "produces": [
+                    "application/json"
+                ],
+                "summary": "POST /app/main/operations/RemoveTodo",
+                "operationId": "RemoveTodo",
+                "parameters": [
+                    {
+                        "name": "key",
+                        "in": "body",
+                        "schema": {
+                            "type": "object",
+                            "required": [
+                                "id"
+                            ],
+                            "properties": {
+                                "id": {
+                                    "type": "string"
+                                }
+                            },
+                            "additionalProperties": false
+                        }
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "OK",
+                        "schema": {
+                            "type": "object",
+                            "properties": {
+                                "data": {
+                                    "type": "object",
+                                    "properties": {
+                                        "todo_deleteOneTodo": {
+                                            "type": "object",
+                                            "required": [
+                                                "id"
+                                            ],
+                                            "properties": {
+                                                "id": {
+                                                    "type": "string"
+                                                }
+                                            }
+                                        }
+                                    },
+                                    "additionalProperties": false
+                                }
+                            },
+                            "additionalProperties": false
+                        }
+                    }
+                }
+            }
+        },
+        "/app/main/operations/UpdateTodoTitle": {
+            "post": {
+                "description": "```graphql\nmutation MyQuery($id: String!, $title: String!) {\n  todo_updateOneTodo(data: {title: {set: $title}}, where: {id: $id}) {\n    id\n  }\n}\n```",
+                "produces": [
+                    "application/json"
+                ],
+                "summary": "POST /app/main/operations/UpdateTodoTitle",
+                "operationId": "UpdateTodoTitle",
+                "parameters": [
+                    {
+                        "name": "key",
+                        "in": "body",
+                        "schema": {
+                            "type": "object",
+                            "required": [
+                                "id",
+                                "title"
+                            ],
+                            "properties": {
+                                "id": {
+                                    "type": "string"
+                                },
+                                "title": {
+                                    "type": "string"
+                                }
+                            },
+                            "additionalProperties": false
+                        }
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "OK",
+                        "schema": {
+                            "type": "object",
+                            "properties": {
+                                "data": {
+                                    "type": "object",
+                                    "properties": {
+                                        "todo_updateOneTodo": {
+                                            "type": "object",
+                                            "required": [
+                                                "id"
+                                            ],
+                                            "properties": {
+                                                "id": {
+                                                    "type": "string"
+                                                }
+                                            }
+                                        }
+                                    },
+                                    "additionalProperties": false
+                                }
+                            },
+                            "additionalProperties": false
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
