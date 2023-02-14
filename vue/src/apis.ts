@@ -1,4 +1,4 @@
-const baseUrl = 'http://localhost:9991'
+const baseUrl = ''
 
 export type ID = string
 
