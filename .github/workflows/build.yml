@@ -1,0 +1,59 @@
+name: Build
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    steps:
+      - name: Check out Git repository
+        uses: actions/checkout@v1
+
+      - name: Install pnpm
+        uses: pnpm/action-setup@v2
+        with:
+          version: 7
+    
+      - name: Build vue
+        run: cd vue && pnpm i && pnpm build
+
+      - name: Install SSH Key
+        uses: shimataro/ssh-key-action@v2
+        with:
+          # 需要提前生成一个公/私钥对，公钥添加到部署机器上
+          # 私钥添加到 Github Action secrets里，其中name是SSH_PRIVATE_KEY，value是私钥内容
+          # 其它 secrets 分别是：
+          # SSH_HOST 部署服务器 IP /域名
+          # SSH_PORT 部署服务器 SSH 端口
+          # SSH_PRIVATE_KEY 部署私钥
+          # SSH_USER SSH 登录用户名
+          key: ${{ secrets.SSH_PRIVATE_KEY }}
+          known_hosts: unnecessary
+
+      - name: Adding Known Hosts
+        run: ssh-keyscan -p ${{ secrets.SSH_PORT}} -H ${{ secrets.SSH_HOST }}  >> ~/.ssh/known_hosts
+
+      - name: Deploy with rsync
+        # 将 server 目录同步到部署目录，将 vue 打包后的 dist 目录同步到 server 目录下的 web 文件夹
+        run: |
+          rsync -avz --exclude 'node_modules' --exclude 'fireboom' -e "ssh -p ${{ secrets.SSH_PORT }}" ./server/ ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}:/path/to/deploy/
+          rsync -avz -e "ssh -p ${{ secrets.SSH_PORT }}" ./vue/dist/ ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}:/path/to/deploy/web
+
+      - name: Restart Fireboom
+        uses: appleboy/ssh-action@master
+        with:
+          host: ${{ secrets.SSH_HOST }}
+          username: ${{ secrets.SSH_USER }}
+          key: ${{ secrets.SSH_PRIVATE_KEY }}
+          port: ${{ secrets.SSH_PORT }}
+          # 进入部署目录，重启 node，重启 fb
+          script: |
+            cd /path/to/deploy
+            cd custom-ts
+            npm install --production
+            chown $(whoami) . # PM2 doesn't recognize root user from Github Actions
+            pm2 restart 0
+            cd ../
+            systemctl restart fb
