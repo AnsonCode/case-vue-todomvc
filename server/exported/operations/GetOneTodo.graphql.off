@@ -1,0 +1,8 @@
+query MyQuery($id: Int = 10) {
+  todo_findUniqueTodo(where: {id: $id}) {
+    completed
+    createdAt
+    id
+    title
+  }
+} 

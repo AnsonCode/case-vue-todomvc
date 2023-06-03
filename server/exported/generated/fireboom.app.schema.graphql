@@ -6,6 +6,9 @@ type Query {
   todo_groupByTodo(where: todo_TodoWhereInput, orderBy: [todo_TodoOrderByWithAggregationInput], by: [todo_TodoScalarFieldEnum]!, having: todo_TodoScalarWhereWithAggregatesInput, take: Int, skip: Int): [todo_TodoGroupByOutputType]!
   todo_findUniqueTodo(where: todo_TodoWhereUniqueInput!): todo_Todo
   todo_findUniqueTodoOrThrow(where: todo_TodoWhereUniqueInput!): todo_Todo
+  system_getAllRoles: [system_QueryGetAllRoles]
+  system_getRoleBindApis(code: String!, roleType: system_Query_getRoleBindApis_roleType): [system_QueryGetRoleBindApis]
+  system_getAllApis: [system_QueryGetAllApis]
 }
 
 type Mutation {
@@ -15,9 +18,34 @@ type Mutation {
   todo_updateOneTodo(data: todo_TodoUpdateInput!, where: todo_TodoWhereUniqueInput!): todo_Todo
   todo_updateManyTodo(data: todo_TodoUpdateManyMutationInput!, where: todo_TodoWhereInput): todo_AffectedRowsOutput
   todo_deleteManyTodo(where: todo_TodoWhereInput): todo_AffectedRowsOutput
+  todo_executeRaw(query: String!, parameters: todo_Json): todo_Json
+  todo_queryRaw(query: String!, parameters: todo_Json): todo_Json
+  system_bindRoleApis(POSTApiV1RoleBindApiInput: system_POSTApiV1RoleBindApiInput): system_MutationBindRoleApis
 }
 
 
+
+input todo_NestedIntFilter {
+  equals: Int
+  in: [Int]
+  notIn: [Int]
+  lt: Int
+  lte: Int
+  gt: Int
+  gte: Int
+  not: todo_NestedIntFilter
+}
+
+input todo_IntFilter {
+  equals: Int
+  in: [Int]
+  notIn: [Int]
+  lt: Int
+  lte: Int
+  gt: Int
+  gte: Int
+  not: todo_NestedIntFilter
+}
 
 input todo_NestedStringFilter {
   equals: String
@@ -57,13 +85,36 @@ input todo_BoolFilter {
   not: todo_NestedBoolFilter
 }
 
+input todo_NestedDateTimeFilter {
+  equals: DateTime
+  in: [DateTime]
+  notIn: [DateTime]
+  lt: DateTime
+  lte: DateTime
+  gt: DateTime
+  gte: DateTime
+  not: todo_NestedDateTimeFilter
+}
+
+input todo_DateTimeFilter {
+  equals: DateTime
+  in: [DateTime]
+  notIn: [DateTime]
+  lt: DateTime
+  lte: DateTime
+  gt: DateTime
+  gte: DateTime
+  not: todo_NestedDateTimeFilter
+}
+
 input todo_TodoWhereInput {
   AND: todo_TodoWhereInput
   OR: [todo_TodoWhereInput]
   NOT: todo_TodoWhereInput
-  id: todo_StringFilter
+  id: todo_IntFilter
   title: todo_StringFilter
   completed: todo_BoolFilter
+  createdAt: todo_DateTimeFilter
 }
 
 enum todo_SortOrder {
@@ -75,22 +126,25 @@ input todo_TodoOrderByWithRelationInput {
   id: todo_SortOrder
   title: todo_SortOrder
   completed: todo_SortOrder
+  createdAt: todo_SortOrder
 }
 
 input todo_TodoWhereUniqueInput {
-  id: String
+  id: Int
 }
 
 enum todo_TodoScalarFieldEnum {
   id
   title
   completed
+  createdAt
 }
 
 type todo_Todo {
-  id: String!
+  id: Int!
   title: String!
   completed: Boolean!
+  createdAt: DateTime!
   _join: Query!
 }
 
@@ -98,26 +152,41 @@ type todo_TodoCountAggregateOutputType {
   id: Int!
   title: Int!
   completed: Int!
+  createdAt: Int!
   _all: Int!
   _join: Query!
 }
 
+type todo_TodoAvgAggregateOutputType {
+  id: Float
+  _join: Query!
+}
+
+type todo_TodoSumAggregateOutputType {
+  id: Int
+  _join: Query!
+}
+
 type todo_TodoMinAggregateOutputType {
-  id: String
+  id: Int
   title: String
   completed: Boolean
+  createdAt: DateTime
   _join: Query!
 }
 
 type todo_TodoMaxAggregateOutputType {
-  id: String
+  id: Int
   title: String
   completed: Boolean
+  createdAt: DateTime
   _join: Query!
 }
 
 type todo_AggregateTodo {
   _count: todo_TodoCountAggregateOutputType
+  _avg: todo_TodoAvgAggregateOutputType
+  _sum: todo_TodoSumAggregateOutputType
   _min: todo_TodoMinAggregateOutputType
   _max: todo_TodoMaxAggregateOutputType
   _join: Query!
@@ -127,30 +196,55 @@ input todo_TodoCountOrderByAggregateInput {
   id: todo_SortOrder
   title: todo_SortOrder
   completed: todo_SortOrder
+  createdAt: todo_SortOrder
+}
+
+input todo_TodoAvgOrderByAggregateInput {
+  id: todo_SortOrder
 }
 
 input todo_TodoMaxOrderByAggregateInput {
   id: todo_SortOrder
   title: todo_SortOrder
   completed: todo_SortOrder
+  createdAt: todo_SortOrder
 }
 
 input todo_TodoMinOrderByAggregateInput {
   id: todo_SortOrder
   title: todo_SortOrder
   completed: todo_SortOrder
+  createdAt: todo_SortOrder
+}
+
+input todo_TodoSumOrderByAggregateInput {
+  id: todo_SortOrder
 }
 
 input todo_TodoOrderByWithAggregationInput {
   id: todo_SortOrder
   title: todo_SortOrder
   completed: todo_SortOrder
+  createdAt: todo_SortOrder
   _count: todo_TodoCountOrderByAggregateInput
+  _avg: todo_TodoAvgOrderByAggregateInput
   _max: todo_TodoMaxOrderByAggregateInput
   _min: todo_TodoMinOrderByAggregateInput
+  _sum: todo_TodoSumOrderByAggregateInput
 }
 
-input todo_NestedIntFilter {
+input todo_NestedFloatFilter {
+  equals: Float
+  in: [Float]
+  notIn: [Float]
+  lt: Float
+  lte: Float
+  gt: Float
+  gte: Float
+  not: todo_NestedFloatFilter
+}
+
+input todo_NestedIntWithAggregatesFilter {
   equals: Int
   in: [Int]
   notIn: [Int]
@@ -158,7 +252,28 @@ input todo_NestedIntFilter {
   lte: Int
   gt: Int
   gte: Int
-  not: todo_NestedIntFilter
+  not: todo_NestedIntWithAggregatesFilter
+  _count: todo_NestedIntFilter
+  _avg: todo_NestedFloatFilter
+  _sum: todo_NestedIntFilter
+  _min: todo_NestedIntFilter
+  _max: todo_NestedIntFilter
+}
+
+input todo_IntWithAggregatesFilter {
+  equals: Int
+  in: [Int]
+  notIn: [Int]
+  lt: Int
+  lte: Int
+  gt: Int
+  gte: Int
+  not: todo_NestedIntWithAggregatesFilter
+  _count: todo_NestedIntFilter
+  _avg: todo_NestedFloatFilter
+  _sum: todo_NestedIntFilter
+  _min: todo_NestedIntFilter
+  _max: todo_NestedIntFilter
 }
 
 input todo_NestedStringWithAggregatesFilter {
@@ -211,29 +326,61 @@ input todo_BoolWithAggregatesFilter {
   _max: todo_NestedBoolFilter
 }
 
+input todo_NestedDateTimeWithAggregatesFilter {
+  equals: DateTime
+  in: [DateTime]
+  notIn: [DateTime]
+  lt: DateTime
+  lte: DateTime
+  gt: DateTime
+  gte: DateTime
+  not: todo_NestedDateTimeWithAggregatesFilter
+  _count: todo_NestedIntFilter
+  _min: todo_NestedDateTimeFilter
+  _max: todo_NestedDateTimeFilter
+}
+
+input todo_DateTimeWithAggregatesFilter {
+  equals: DateTime
+  in: [DateTime]
+  notIn: [DateTime]
+  lt: DateTime
+  lte: DateTime
+  gt: DateTime
+  gte: DateTime
+  not: todo_NestedDateTimeWithAggregatesFilter
+  _count: todo_NestedIntFilter
+  _min: todo_NestedDateTimeFilter
+  _max: todo_NestedDateTimeFilter
+}
+
 input todo_TodoScalarWhereWithAggregatesInput {
   AND: todo_TodoScalarWhereWithAggregatesInput
   OR: [todo_TodoScalarWhereWithAggregatesInput]
   NOT: todo_TodoScalarWhereWithAggregatesInput
-  id: todo_StringWithAggregatesFilter
+  id: todo_IntWithAggregatesFilter
   title: todo_StringWithAggregatesFilter
   completed: todo_BoolWithAggregatesFilter
+  createdAt: todo_DateTimeWithAggregatesFilter
 }
 
 type todo_TodoGroupByOutputType {
-  id: String!
+  id: Int!
   title: String!
   completed: Boolean!
+  createdAt: DateTime!
   _count: todo_TodoCountAggregateOutputType
+  _avg: todo_TodoAvgAggregateOutputType
+  _sum: todo_TodoSumAggregateOutputType
   _min: todo_TodoMinAggregateOutputType
   _max: todo_TodoMaxAggregateOutputType
   _join: Query!
 }
 
 input todo_TodoCreateInput {
-  id: String!
   title: String!
-  completed: Boolean!
+  completed: Boolean
+  createdAt: DateTime
 }
 
 input todo_StringFieldUpdateOperationsInput {
@@ -244,16 +391,20 @@ input todo_BoolFieldUpdateOperationsInput {
   set: Boolean
 }
 
+input todo_DateTimeFieldUpdateOperationsInput {
+  set: DateTime
+}
+
 input todo_TodoUpdateInput {
-  id: todo_StringFieldUpdateOperationsInput
   title: todo_StringFieldUpdateOperationsInput
   completed: todo_BoolFieldUpdateOperationsInput
+  createdAt: todo_DateTimeFieldUpdateOperationsInput
 }
 
 input todo_TodoUpdateManyMutationInput {
-  id: todo_StringFieldUpdateOperationsInput
   title: todo_StringFieldUpdateOperationsInput
   completed: todo_BoolFieldUpdateOperationsInput
+  createdAt: todo_DateTimeFieldUpdateOperationsInput
 }
 
 type todo_AffectedRowsOutput {
@@ -272,6 +423,78 @@ scalar BigInt
 scalar todo_Decimal
 
 scalar todo_Bytes
+
+type system_QueryGetAllRoles {
+  code: String
+  remark: String
+  _join: Query!
+}
+
+type system_QueryGetRoleBindApis {
+  id: Int
+  title: String
+  updateTime: String
+  roles: String
+  content: String
+  operationType: String
+  restUrl: String
+  roleType: String
+  enabled: Boolean
+  illegal: Boolean
+  method: String
+  remark: String
+  createTime: String
+  deleteTime: String
+  isPublic: Boolean
+  liveQuery: Boolean
+  _join: Query!
+}
+
+enum system_Query_getRoleBindApis_roleType {
+  requireMatchAll
+  requireMatchAny
+  denyMatchAll
+  denyMatchAny
+}
+
+type system_QueryGetAllApis {
+  content: String
+  illegal: Boolean
+  restUrl: String
+  deleteTime: String
+  roles: String
+  title: String
+  createTime: String
+  enabled: Boolean
+  liveQuery: Boolean
+  method: String
+  updateTime: String
+  id: Int
+  isPublic: Boolean
+  operationType: String
+  remark: String
+  roleType: String
+  _join: Query!
+}
+
+type system_MutationBindRoleApis {
+  count: Int
+  _join: Query!
+}
+
+input system_POSTApiV1RoleBindApiInput {
+  roleType: system_POSTApiV1RoleBindApiInput_roleType
+  roleCode: String!
+  apis: [Int]!
+  allRoles: [String]!
+}
+
+enum system_POSTApiV1RoleBindApiInput_roleType {
+  requireMatchAll
+  requireMatchAny
+  denyMatchAll
+  denyMatchAny
+}
 
 directive @rbac(
   

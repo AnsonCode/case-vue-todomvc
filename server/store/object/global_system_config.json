@@ -1,21 +1,21 @@
 {
   "system": {
-    "apiPort": "9991",
-    "apiHost": "http://localhost:9991",
-    "middlewarePort": "9992",
-    "hooksServerURL": "http://127.0.0.1:9992",
-    "hooksServerPath": "./custom-ts",
+    "apiPublicAddr": "http://localhost:9991",
+    "apiInternalAddr": "http://localhost:9991",
+    "apiListenHost": "localhost",
+    "apiListenPort": "9991",
+    "hooksServerURL": "http://localhost:9992",
+    "hooksServerLanguage": "",
     "logLevel": -1,
-    "devSwitch": true,
-    "forcedJumpSwitch": true,
-    "debugSwitch": true,
-    "listenHost": "127.0.0.1",
-    "listenPort": "9991"
+    "isDev": true,
+    "forcedJumpEnabled": true,
+    "debugEnabled": true,
+    "usageReport": true
   },
   "version": {
-    "versionNum": "0.0.0.2",
-    "prismaVersion": "",
-    "prismaEngineVersion": "",
+    "versionNum": "v0.2.4",
+    "prismaVersion": "3.13.0",
+    "prismaEngineVersion": "694eea289a8462c80264df36757e4fdc129b1b32",
     "copyright": "fireboom"
   },
   "environment": {

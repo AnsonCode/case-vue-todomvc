@@ -1,1 +1,51 @@
-[{"id":1273126435815424,"name":"todo","sourceType":1,"config":{"apiNamespace":"todo","appendType":"","databaseUrl":{"key":"","kind":"0","val":"todo.db"},"dbName":"","dbType":"SQLite","host":"","password":{"key":"","kind":"0","val":""},"port":"","replaceJSONTypeFieldConfiguration":null,"schemaExtension":"","userName":{"key":"","kind":"0","val":""}},"switch":1,"createTime":"2023-02-13 18:01:52","updateTime":"2023-02-14 00:21:56","isDel":0}]
+[
+	{
+		"config": {
+			"apiNamespace": "todo",
+			"appendType": "",
+			"databaseUrl": {
+				"key": "",
+				"kind": "0",
+				"val": "todo.db"
+			},
+			"dbName": "",
+			"dbType": "SQLite",
+			"host": "",
+			"password": {
+				"key": "",
+				"kind": "0",
+				"val": ""
+			},
+			"port": "",
+			"replaceJSONTypeFieldConfiguration": null,
+			"schemaExtension": "",
+			"userName": {
+				"key": "",
+				"kind": "0",
+				"val": ""
+			}
+		},
+		"createTime": "2023-03-13 01:35:16Z",
+		"deleteTime": "",
+		"enabled": true,
+		"id": 1429679094890496,
+		"name": "todo",
+		"sourceType": 1,
+		"updateTime": "2023-03-13 01:35:17Z"
+	},
+	{
+		"id": 1895479159291904,
+		"name": "system",
+		"sourceType": 2,
+		"config": {
+			"apiNameSpace": "system",
+			"baseURL": "http://localhost:9123",
+			"filePath": "openapi.json",
+			"headers": []
+		},
+		"enabled": true,
+		"createTime": "2023-06-03 07:54:21Z",
+		"updateTime": "",
+		"deleteTime": ""
+	}
+]

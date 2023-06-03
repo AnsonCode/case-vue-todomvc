@@ -1,7 +1,0 @@
-query MyQuery {
-  data: todo_findManyTodo {
-    completed
-    id
-    title
-  }
-}

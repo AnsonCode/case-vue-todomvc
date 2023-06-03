@@ -1,7 +1,0 @@
-mutation MyQuery($id: String! @injectGeneratedUUID, $title: String!) {
-  data: todo_createOneTodo(data: {id: $id, title: $title, completed: false}) {
-    id
-    completed
-    title
-  }
-}

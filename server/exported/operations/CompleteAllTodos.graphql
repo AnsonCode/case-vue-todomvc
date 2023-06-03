@@ -1,5 +1,0 @@
-mutation MyQuery($completed: Boolean!) {
-  data: todo_updateManyTodo(data: {completed: {set: $completed}}) {
-    count
-  }
-}

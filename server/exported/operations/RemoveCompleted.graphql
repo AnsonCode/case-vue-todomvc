@@ -1,5 +1,0 @@
-mutation MyQuery {
-  data: todo_deleteManyTodo(where: {completed: {equals: true}}) {
-    count
-  }
-}

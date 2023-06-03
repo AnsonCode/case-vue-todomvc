@@ -1,5 +1,0 @@
-model Todo {
-    id String @id
-    title String
-    completed Boolean
-}
