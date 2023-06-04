@@ -1,3 +1,4 @@
 node_modules
 fireboom
 server/log
+server/exported/generated
