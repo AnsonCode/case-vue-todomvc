@@ -1,0 +1,18 @@
+query GetTodoList($take: Int = 10, $skip: Int = 0, $orderBy: [todo_TodoOrderByWithRelationInput], $query: todo_TodoWhereInput) {
+  data: todo_findManyTodo(
+    skip: $skip
+    take: $take
+    orderBy: $orderBy
+    where: {AND: $query}
+  ) {
+    id
+    title
+    completed
+    createdAt
+  }
+  total: todo_aggregateTodo(where: {AND: $query}) @transform(get: "_count.id") {
+    _count {
+      id
+    }
+  }
+}

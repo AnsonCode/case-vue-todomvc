@@ -1,0 +1,8 @@
+mutation MyQuery($completed: Boolean = false, $id: String = "") {
+  data: todo_updateOneTodo(
+    data: { completed: { set: $completed } }
+    where: { id: $id }
+  ) {
+    id
+  }
+}

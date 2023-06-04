@@ -1,0 +1,5 @@
+mutation MyQuery($id: String!,  $data: todo_TodoUpdateInput = {}) {
+  todo_updateOneTodo(data: $data, where: {id: $id}) {
+    id
+  }
+}

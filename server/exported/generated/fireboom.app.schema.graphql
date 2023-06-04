@@ -349,6 +349,59 @@ scalar todo_Decimal
 
 scalar todo_Bytes
 
+type system_QueryGetAllRoles {
+  code: String
+  remark: String
+  _join: Query!
+}
+
+type system_QueryGetRoleBindApis {
+  enabled: Boolean
+  liveQuery: Boolean
+  remark: String
+  restUrl: String
+  title: String
+  deleteTime: String
+  operationType: String
+  roleType: String
+  updateTime: String
+  createTime: String
+  illegal: Boolean
+  method: String
+  content: String
+  id: Int
+  isPublic: Boolean
+  roles: String
+  _join: Query!
+}
+
+enum system_Query_getRoleBindApis_roleType {
+  requireMatchAll
+  requireMatchAny
+  denyMatchAll
+  denyMatchAny
+}
+
+type system_QueryGetAllApis {
+  createTime: String
+  id: Int
+  isPublic: Boolean
+  liveQuery: Boolean
+  restUrl: String
+  roleType: String
+  updateTime: String
+  enabled: Boolean
+  method: String
+  operationType: String
+  remark: String
+  title: String
+  content: String
+  roles: String
+  deleteTime: String
+  illegal: Boolean
+  _join: Query!
+}
+
 type system_MutationBindRoleApis {
   count: Int
   _join: Query!
@@ -366,59 +419,6 @@ enum system_POSTApiV1RoleBindApiInput_roleType {
   requireMatchAny
   denyMatchAll
   denyMatchAny
-}
-
-type system_QueryGetAllRoles {
-  code: String
-  remark: String
-  _join: Query!
-}
-
-type system_QueryGetRoleBindApis {
-  liveQuery: Boolean
-  method: String
-  title: String
-  illegal: Boolean
-  operationType: String
-  restUrl: String
-  roles: String
-  content: String
-  deleteTime: String
-  id: Int
-  remark: String
-  roleType: String
-  updateTime: String
-  createTime: String
-  enabled: Boolean
-  isPublic: Boolean
-  _join: Query!
-}
-
-enum system_Query_getRoleBindApis_roleType {
-  requireMatchAll
-  requireMatchAny
-  denyMatchAll
-  denyMatchAny
-}
-
-type system_QueryGetAllApis {
-  title: String
-  enabled: Boolean
-  operationType: String
-  roleType: String
-  restUrl: String
-  roles: String
-  updateTime: String
-  id: Int
-  illegal: Boolean
-  remark: String
-  createTime: String
-  deleteTime: String
-  method: String
-  content: String
-  isPublic: Boolean
-  liveQuery: Boolean
-  _join: Query!
 }
 
 directive @rbac(

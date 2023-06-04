@@ -1,8 +1,0 @@
-query MyQuery($id: String = "default") {
-  todo_findUniqueTodo(where: {id: $id}) {
-    completed
-    createdAt
-    id
-    title
-  }
-}
