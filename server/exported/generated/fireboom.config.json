@@ -34,18 +34,6 @@
               ]
             },
             {
-              "typeName": "todo_TodoAvgAggregateOutputType",
-              "fieldNames": [
-                "id"
-              ]
-            },
-            {
-              "typeName": "todo_TodoSumAggregateOutputType",
-              "fieldNames": [
-                "id"
-              ]
-            },
-            {
               "typeName": "todo_TodoMinAggregateOutputType",
               "fieldNames": [
                 "id",
@@ -67,8 +55,6 @@
               "typeName": "todo_AggregateTodo",
               "fieldNames": [
                 "_count",
-                "_avg",
-                "_sum",
                 "_min",
                 "_max"
               ]
@@ -81,8 +67,6 @@
                 "completed",
                 "createdAt",
                 "_count",
-                "_avg",
-                "_sum",
                 "_min",
                 "_max"
               ]
@@ -150,18 +134,6 @@
               ]
             },
             {
-              "typeName": "todo_TodoAvgAggregateOutputType",
-              "fieldNames": [
-                "id"
-              ]
-            },
-            {
-              "typeName": "todo_TodoSumAggregateOutputType",
-              "fieldNames": [
-                "id"
-              ]
-            },
-            {
               "typeName": "todo_TodoMinAggregateOutputType",
               "fieldNames": [
                 "id",
@@ -183,8 +155,6 @@
               "typeName": "todo_AggregateTodo",
               "fieldNames": [
                 "_count",
-                "_avg",
-                "_sum",
                 "_min",
                 "_max"
               ]
@@ -197,8 +167,6 @@
                 "completed",
                 "createdAt",
                 "_count",
-                "_avg",
-                "_sum",
                 "_min",
                 "_max"
               ]
@@ -266,18 +234,6 @@
               ]
             },
             {
-              "typeName": "todo_TodoAvgAggregateOutputType",
-              "fieldNames": [
-                "id"
-              ]
-            },
-            {
-              "typeName": "todo_TodoSumAggregateOutputType",
-              "fieldNames": [
-                "id"
-              ]
-            },
-            {
               "typeName": "todo_TodoMinAggregateOutputType",
               "fieldNames": [
                 "id",
@@ -299,8 +255,6 @@
               "typeName": "todo_AggregateTodo",
               "fieldNames": [
                 "_count",
-                "_avg",
-                "_sum",
                 "_min",
                 "_max"
               ]
@@ -313,8 +267,6 @@
                 "completed",
                 "createdAt",
                 "_count",
-                "_avg",
-                "_sum",
                 "_min",
                 "_max"
               ]
@@ -382,18 +334,6 @@
               ]
             },
             {
-              "typeName": "todo_TodoAvgAggregateOutputType",
-              "fieldNames": [
-                "id"
-              ]
-            },
-            {
-              "typeName": "todo_TodoSumAggregateOutputType",
-              "fieldNames": [
-                "id"
-              ]
-            },
-            {
               "typeName": "todo_TodoMinAggregateOutputType",
               "fieldNames": [
                 "id",
@@ -415,8 +355,6 @@
               "typeName": "todo_AggregateTodo",
               "fieldNames": [
                 "_count",
-                "_avg",
-                "_sum",
                 "_min",
                 "_max"
               ]
@@ -429,8 +367,6 @@
                 "completed",
                 "createdAt",
                 "_count",
-                "_avg",
-                "_sum",
                 "_min",
                 "_max"
               ]
@@ -498,18 +434,6 @@
               ]
             },
             {
-              "typeName": "todo_TodoAvgAggregateOutputType",
-              "fieldNames": [
-                "id"
-              ]
-            },
-            {
-              "typeName": "todo_TodoSumAggregateOutputType",
-              "fieldNames": [
-                "id"
-              ]
-            },
-            {
               "typeName": "todo_TodoMinAggregateOutputType",
               "fieldNames": [
                 "id",
@@ -531,8 +455,6 @@
               "typeName": "todo_AggregateTodo",
               "fieldNames": [
                 "_count",
-                "_avg",
-                "_sum",
                 "_min",
                 "_max"
               ]
@@ -545,8 +467,6 @@
                 "completed",
                 "createdAt",
                 "_count",
-                "_avg",
-                "_sum",
                 "_min",
                 "_max"
               ]
@@ -614,18 +534,6 @@
               ]
             },
             {
-              "typeName": "todo_TodoAvgAggregateOutputType",
-              "fieldNames": [
-                "id"
-              ]
-            },
-            {
-              "typeName": "todo_TodoSumAggregateOutputType",
-              "fieldNames": [
-                "id"
-              ]
-            },
-            {
               "typeName": "todo_TodoMinAggregateOutputType",
               "fieldNames": [
                 "id",
@@ -647,8 +555,6 @@
               "typeName": "todo_AggregateTodo",
               "fieldNames": [
                 "_count",
-                "_avg",
-                "_sum",
                 "_min",
                 "_max"
               ]
@@ -661,8 +567,6 @@
                 "completed",
                 "createdAt",
                 "_count",
-                "_avg",
-                "_sum",
                 "_min",
                 "_max"
               ]
@@ -730,18 +634,6 @@
               ]
             },
             {
-              "typeName": "todo_TodoAvgAggregateOutputType",
-              "fieldNames": [
-                "id"
-              ]
-            },
-            {
-              "typeName": "todo_TodoSumAggregateOutputType",
-              "fieldNames": [
-                "id"
-              ]
-            },
-            {
               "typeName": "todo_TodoMinAggregateOutputType",
               "fieldNames": [
                 "id",
@@ -763,8 +655,6 @@
               "typeName": "todo_AggregateTodo",
               "fieldNames": [
                 "_count",
-                "_avg",
-                "_sum",
                 "_min",
                 "_max"
               ]
@@ -777,8 +667,6 @@
                 "completed",
                 "createdAt",
                 "_count",
-                "_avg",
-                "_sum",
                 "_min",
                 "_max"
               ]
@@ -846,18 +734,6 @@
               ]
             },
             {
-              "typeName": "todo_TodoAvgAggregateOutputType",
-              "fieldNames": [
-                "id"
-              ]
-            },
-            {
-              "typeName": "todo_TodoSumAggregateOutputType",
-              "fieldNames": [
-                "id"
-              ]
-            },
-            {
               "typeName": "todo_TodoMinAggregateOutputType",
               "fieldNames": [
                 "id",
@@ -879,8 +755,6 @@
               "typeName": "todo_AggregateTodo",
               "fieldNames": [
                 "_count",
-                "_avg",
-                "_sum",
                 "_min",
                 "_max"
               ]
@@ -893,8 +767,6 @@
                 "completed",
                 "createdAt",
                 "_count",
-                "_avg",
-                "_sum",
                 "_min",
                 "_max"
               ]
@@ -962,18 +834,6 @@
               ]
             },
             {
-              "typeName": "todo_TodoAvgAggregateOutputType",
-              "fieldNames": [
-                "id"
-              ]
-            },
-            {
-              "typeName": "todo_TodoSumAggregateOutputType",
-              "fieldNames": [
-                "id"
-              ]
-            },
-            {
               "typeName": "todo_TodoMinAggregateOutputType",
               "fieldNames": [
                 "id",
@@ -995,8 +855,6 @@
               "typeName": "todo_AggregateTodo",
               "fieldNames": [
                 "_count",
-                "_avg",
-                "_sum",
                 "_min",
                 "_max"
               ]
@@ -1009,8 +867,6 @@
                 "completed",
                 "createdAt",
                 "_count",
-                "_avg",
-                "_sum",
                 "_min",
                 "_max"
               ]
@@ -1078,18 +934,6 @@
               ]
             },
             {
-              "typeName": "todo_TodoAvgAggregateOutputType",
-              "fieldNames": [
-                "id"
-              ]
-            },
-            {
-              "typeName": "todo_TodoSumAggregateOutputType",
-              "fieldNames": [
-                "id"
-              ]
-            },
-            {
               "typeName": "todo_TodoMinAggregateOutputType",
               "fieldNames": [
                 "id",
@@ -1111,8 +955,6 @@
               "typeName": "todo_AggregateTodo",
               "fieldNames": [
                 "_count",
-                "_avg",
-                "_sum",
                 "_min",
                 "_max"
               ]
@@ -1125,8 +967,6 @@
                 "completed",
                 "createdAt",
                 "_count",
-                "_avg",
-                "_sum",
                 "_min",
                 "_max"
               ]
@@ -1194,18 +1034,6 @@
               ]
             },
             {
-              "typeName": "todo_TodoAvgAggregateOutputType",
-              "fieldNames": [
-                "id"
-              ]
-            },
-            {
-              "typeName": "todo_TodoSumAggregateOutputType",
-              "fieldNames": [
-                "id"
-              ]
-            },
-            {
               "typeName": "todo_TodoMinAggregateOutputType",
               "fieldNames": [
                 "id",
@@ -1227,8 +1055,6 @@
               "typeName": "todo_AggregateTodo",
               "fieldNames": [
                 "_count",
-                "_avg",
-                "_sum",
                 "_min",
                 "_max"
               ]
@@ -1241,8 +1067,6 @@
                 "completed",
                 "createdAt",
                 "_count",
-                "_avg",
-                "_sum",
                 "_min",
                 "_max"
               ]
@@ -1310,18 +1134,6 @@
               ]
             },
             {
-              "typeName": "todo_TodoAvgAggregateOutputType",
-              "fieldNames": [
-                "id"
-              ]
-            },
-            {
-              "typeName": "todo_TodoSumAggregateOutputType",
-              "fieldNames": [
-                "id"
-              ]
-            },
-            {
               "typeName": "todo_TodoMinAggregateOutputType",
               "fieldNames": [
                 "id",
@@ -1343,8 +1155,6 @@
               "typeName": "todo_AggregateTodo",
               "fieldNames": [
                 "_count",
-                "_avg",
-                "_sum",
                 "_min",
                 "_max"
               ]
@@ -1357,8 +1167,6 @@
                 "completed",
                 "createdAt",
                 "_count",
-                "_avg",
-                "_sum",
                 "_min",
                 "_max"
               ]
@@ -1426,18 +1234,6 @@
               ]
             },
             {
-              "typeName": "todo_TodoAvgAggregateOutputType",
-              "fieldNames": [
-                "id"
-              ]
-            },
-            {
-              "typeName": "todo_TodoSumAggregateOutputType",
-              "fieldNames": [
-                "id"
-              ]
-            },
-            {
               "typeName": "todo_TodoMinAggregateOutputType",
               "fieldNames": [
                 "id",
@@ -1459,8 +1255,6 @@
               "typeName": "todo_AggregateTodo",
               "fieldNames": [
                 "_count",
-                "_avg",
-                "_sum",
                 "_min",
                 "_max"
               ]
@@ -1473,8 +1267,6 @@
                 "completed",
                 "createdAt",
                 "_count",
-                "_avg",
-                "_sum",
                 "_min",
                 "_max"
               ]
@@ -1542,18 +1334,6 @@
               ]
             },
             {
-              "typeName": "todo_TodoAvgAggregateOutputType",
-              "fieldNames": [
-                "id"
-              ]
-            },
-            {
-              "typeName": "todo_TodoSumAggregateOutputType",
-              "fieldNames": [
-                "id"
-              ]
-            },
-            {
               "typeName": "todo_TodoMinAggregateOutputType",
               "fieldNames": [
                 "id",
@@ -1575,8 +1355,6 @@
               "typeName": "todo_AggregateTodo",
               "fieldNames": [
                 "_count",
-                "_avg",
-                "_sum",
                 "_min",
                 "_max"
               ]
@@ -1589,8 +1367,6 @@
                 "completed",
                 "createdAt",
                 "_count",
-                "_avg",
-                "_sum",
                 "_min",
                 "_max"
               ]
@@ -1658,18 +1434,6 @@
               ]
             },
             {
-              "typeName": "todo_TodoAvgAggregateOutputType",
-              "fieldNames": [
-                "id"
-              ]
-            },
-            {
-              "typeName": "todo_TodoSumAggregateOutputType",
-              "fieldNames": [
-                "id"
-              ]
-            },
-            {
               "typeName": "todo_TodoMinAggregateOutputType",
               "fieldNames": [
                 "id",
@@ -1691,8 +1455,6 @@
               "typeName": "todo_AggregateTodo",
               "fieldNames": [
                 "_count",
-                "_avg",
-                "_sum",
                 "_min",
                 "_max"
               ]
@@ -1705,8 +1467,6 @@
                 "completed",
                 "createdAt",
                 "_count",
-                "_avg",
-                "_sum",
                 "_min",
                 "_max"
               ]
@@ -1740,6 +1500,70 @@
             "apiNamespace": "todo"
           },
           "directives": [],
+          "requestTimeoutSeconds": 0,
+          "id": ""
+        },
+        {
+          "kind": 1,
+          "rootNodes": [
+            {
+              "typeName": "Mutation",
+              "fieldNames": [
+                "system_bindRoleApis"
+              ]
+            }
+          ],
+          "childNodes": null,
+          "overrideFieldPathFromAlias": false,
+          "customRest": {
+            "fetch": {
+              "url": {
+                "kind": 0,
+                "staticVariableContent": "",
+                "environmentVariableName": "",
+                "environmentVariableDefaultValue": "",
+                "placeholderVariableName": ""
+              },
+              "method": 1,
+              "header": null,
+              "body": {
+                "kind": 0,
+                "staticVariableContent": "{{ .arguments.POSTApiV1RoleBindApiInput }}",
+                "environmentVariableName": "",
+                "environmentVariableDefaultValue": "",
+                "placeholderVariableName": ""
+              },
+              "query": null,
+              "upstreamAuthentication": null,
+              "urlEncodeBody": false,
+              "mTLS": null,
+              "baseUrl": {
+                "kind": 0,
+                "staticVariableContent": "http://localhost:9123",
+                "environmentVariableName": "",
+                "environmentVariableDefaultValue": "",
+                "placeholderVariableName": ""
+              },
+              "path": {
+                "kind": 0,
+                "staticVariableContent": "/api/v1/role/bindApi",
+                "environmentVariableName": "",
+                "environmentVariableDefaultValue": "",
+                "placeholderVariableName": ""
+              }
+            },
+            "subscription": {
+              "enabled": false,
+              "pollingIntervalMillis": 0,
+              "skipPublishSameResponse": false
+            },
+            "statusCodeTypeMappings": null,
+            "defaultTypeName": ""
+          },
+          "customGraphql": null,
+          "customStatic": null,
+          "customDatabase": null,
+          "directives": null,
           "requestTimeoutSeconds": 0,
           "id": ""
         },
@@ -1945,70 +1769,6 @@
           "id": ""
         },
         {
-          "kind": 1,
-          "rootNodes": [
-            {
-              "typeName": "Mutation",
-              "fieldNames": [
-                "system_bindRoleApis"
-              ]
-            }
-          ],
-          "childNodes": null,
-          "overrideFieldPathFromAlias": false,
-          "customRest": {
-            "fetch": {
-              "url": {
-                "kind": 0,
-                "staticVariableContent": "",
-                "environmentVariableName": "",
-                "environmentVariableDefaultValue": "",
-                "placeholderVariableName": ""
-              },
-              "method": 1,
-              "header": null,
-              "body": {
-                "kind": 0,
-                "staticVariableContent": "{{ .arguments.POSTApiV1RoleBindApiInput }}",
-                "environmentVariableName": "",
-                "environmentVariableDefaultValue": "",
-                "placeholderVariableName": ""
-              },
-              "query": null,
-              "upstreamAuthentication": null,
-              "urlEncodeBody": false,
-              "mTLS": null,
-              "baseUrl": {
-                "kind": 0,
-                "staticVariableContent": "http://localhost:9123",
-                "environmentVariableName": "",
-                "environmentVariableDefaultValue": "",
-                "placeholderVariableName": ""
-              },
-              "path": {
-                "kind": 0,
-                "staticVariableContent": "/api/v1/role/bindApi",
-                "environmentVariableName": "",
-                "environmentVariableDefaultValue": "",
-                "placeholderVariableName": ""
-              }
-            },
-            "subscription": {
-              "enabled": false,
-              "pollingIntervalMillis": 0,
-              "skipPublishSameResponse": false
-            },
-            "statusCodeTypeMappings": null,
-            "defaultTypeName": ""
-          },
-          "customGraphql": null,
-          "customStatic": null,
-          "customDatabase": null,
-          "directives": null,
-          "requestTimeoutSeconds": 0,
-          "id": ""
-        },
-        {
           "kind": 0,
           "rootNodes": [
             {
@@ -2041,62 +1801,6 @@
           "rootNodes": [
             {
               "typeName": "todo_TodoCountAggregateOutputType",
-              "fieldNames": [
-                "_join"
-              ]
-            }
-          ],
-          "childNodes": null,
-          "overrideFieldPathFromAlias": false,
-          "customRest": null,
-          "customGraphql": null,
-          "customStatic": {
-            "data": {
-              "kind": 0,
-              "staticVariableContent": "{}",
-              "environmentVariableName": "",
-              "environmentVariableDefaultValue": "",
-              "placeholderVariableName": ""
-            }
-          },
-          "customDatabase": null,
-          "directives": null,
-          "requestTimeoutSeconds": 0,
-          "id": ""
-        },
-        {
-          "kind": 0,
-          "rootNodes": [
-            {
-              "typeName": "todo_TodoAvgAggregateOutputType",
-              "fieldNames": [
-                "_join"
-              ]
-            }
-          ],
-          "childNodes": null,
-          "overrideFieldPathFromAlias": false,
-          "customRest": null,
-          "customGraphql": null,
-          "customStatic": {
-            "data": {
-              "kind": 0,
-              "staticVariableContent": "{}",
-              "environmentVariableName": "",
-              "environmentVariableDefaultValue": "",
-              "placeholderVariableName": ""
-            }
-          },
-          "customDatabase": null,
-          "directives": null,
-          "requestTimeoutSeconds": 0,
-          "id": ""
-        },
-        {
-          "kind": 0,
-          "rootNodes": [
-            {
-              "typeName": "todo_TodoSumAggregateOutputType",
               "fieldNames": [
                 "_join"
               ]
@@ -2264,6 +1968,34 @@
           "kind": 0,
           "rootNodes": [
             {
+              "typeName": "system_MutationBindRoleApis",
+              "fieldNames": [
+                "_join"
+              ]
+            }
+          ],
+          "childNodes": null,
+          "overrideFieldPathFromAlias": false,
+          "customRest": null,
+          "customGraphql": null,
+          "customStatic": {
+            "data": {
+              "kind": 0,
+              "staticVariableContent": "{}",
+              "environmentVariableName": "",
+              "environmentVariableDefaultValue": "",
+              "placeholderVariableName": ""
+            }
+          },
+          "customDatabase": null,
+          "directives": null,
+          "requestTimeoutSeconds": 0,
+          "id": ""
+        },
+        {
+          "kind": 0,
+          "rootNodes": [
+            {
               "typeName": "system_QueryGetAllRoles",
               "fieldNames": [
                 "_join"
@@ -2343,43 +2075,15 @@
           "directives": null,
           "requestTimeoutSeconds": 0,
           "id": ""
-        },
-        {
-          "kind": 0,
-          "rootNodes": [
-            {
-              "typeName": "system_MutationBindRoleApis",
-              "fieldNames": [
-                "_join"
-              ]
-            }
-          ],
-          "childNodes": null,
-          "overrideFieldPathFromAlias": false,
-          "customRest": null,
-          "customGraphql": null,
-          "customStatic": {
-            "data": {
-              "kind": 0,
-              "staticVariableContent": "{}",
-              "environmentVariableName": "",
-              "environmentVariableDefaultValue": "",
-              "placeholderVariableName": ""
-            }
-          },
-          "customDatabase": null,
-          "directives": null,
-          "requestTimeoutSeconds": 0,
-          "id": ""
         }
       ],
       "fieldConfigurations": [
         {
-          "typeName": "Mutation",
-          "fieldName": "todo_deleteOneTodo",
+          "typeName": "Query",
+          "fieldName": "todo_findUniqueTodo",
           "disableDefaultFieldMapping": false,
           "path": [
-            "deleteOneTodo"
+            "findUniqueTodo"
           ],
           "argumentsConfiguration": [
             {
@@ -2391,6 +2095,34 @@
             }
           ],
           "requiresFields": [],
+          "unescapeResponseJson": false
+        },
+        {
+          "typeName": "Mutation",
+          "fieldName": "todo_deleteManyTodo",
+          "disableDefaultFieldMapping": false,
+          "path": [
+            "deleteManyTodo"
+          ],
+          "argumentsConfiguration": [
+            {
+              "name": "where",
+              "sourceType": 1,
+              "sourcePath": [],
+              "renderConfiguration": 0,
+              "renameTypeTo": ""
+            }
+          ],
+          "requiresFields": [],
+          "unescapeResponseJson": false
+        },
+        {
+          "typeName": "Query",
+          "fieldName": "system_getRoleBindApis",
+          "disableDefaultFieldMapping": true,
+          "path": null,
+          "argumentsConfiguration": null,
+          "requiresFields": null,
           "unescapeResponseJson": false
         },
         {
@@ -2438,6 +2170,291 @@
             },
             {
               "name": "distinct",
+              "sourceType": 1,
+              "sourcePath": [],
+              "renderConfiguration": 0,
+              "renameTypeTo": ""
+            }
+          ],
+          "requiresFields": [],
+          "unescapeResponseJson": false
+        },
+        {
+          "typeName": "Query",
+          "fieldName": "todo_findFirstTodoOrThrow",
+          "disableDefaultFieldMapping": false,
+          "path": [
+            "findFirstTodoOrThrow"
+          ],
+          "argumentsConfiguration": [
+            {
+              "name": "where",
+              "sourceType": 1,
+              "sourcePath": [],
+              "renderConfiguration": 0,
+              "renameTypeTo": ""
+            },
+            {
+              "name": "orderBy",
+              "sourceType": 1,
+              "sourcePath": [],
+              "renderConfiguration": 0,
+              "renameTypeTo": ""
+            },
+            {
+              "name": "cursor",
+              "sourceType": 1,
+              "sourcePath": [],
+              "renderConfiguration": 0,
+              "renameTypeTo": ""
+            },
+            {
+              "name": "take",
+              "sourceType": 1,
+              "sourcePath": [],
+              "renderConfiguration": 0,
+              "renameTypeTo": ""
+            },
+            {
+              "name": "skip",
+              "sourceType": 1,
+              "sourcePath": [],
+              "renderConfiguration": 0,
+              "renameTypeTo": ""
+            },
+            {
+              "name": "distinct",
+              "sourceType": 1,
+              "sourcePath": [],
+              "renderConfiguration": 0,
+              "renameTypeTo": ""
+            }
+          ],
+          "requiresFields": [],
+          "unescapeResponseJson": false
+        },
+        {
+          "typeName": "Query",
+          "fieldName": "system_getAllRoles",
+          "disableDefaultFieldMapping": true,
+          "path": null,
+          "argumentsConfiguration": null,
+          "requiresFields": null,
+          "unescapeResponseJson": false
+        },
+        {
+          "typeName": "Mutation",
+          "fieldName": "todo_deleteOneTodo",
+          "disableDefaultFieldMapping": false,
+          "path": [
+            "deleteOneTodo"
+          ],
+          "argumentsConfiguration": [
+            {
+              "name": "where",
+              "sourceType": 1,
+              "sourcePath": [],
+              "renderConfiguration": 0,
+              "renameTypeTo": ""
+            }
+          ],
+          "requiresFields": [],
+          "unescapeResponseJson": false
+        },
+        {
+          "typeName": "Mutation",
+          "fieldName": "todo_updateManyTodo",
+          "disableDefaultFieldMapping": false,
+          "path": [
+            "updateManyTodo"
+          ],
+          "argumentsConfiguration": [
+            {
+              "name": "data",
+              "sourceType": 1,
+              "sourcePath": [],
+              "renderConfiguration": 0,
+              "renameTypeTo": ""
+            },
+            {
+              "name": "where",
+              "sourceType": 1,
+              "sourcePath": [],
+              "renderConfiguration": 0,
+              "renameTypeTo": ""
+            }
+          ],
+          "requiresFields": [],
+          "unescapeResponseJson": false
+        },
+        {
+          "typeName": "Query",
+          "fieldName": "todo_groupByTodo",
+          "disableDefaultFieldMapping": false,
+          "path": [
+            "groupByTodo"
+          ],
+          "argumentsConfiguration": [
+            {
+              "name": "where",
+              "sourceType": 1,
+              "sourcePath": [],
+              "renderConfiguration": 0,
+              "renameTypeTo": ""
+            },
+            {
+              "name": "orderBy",
+              "sourceType": 1,
+              "sourcePath": [],
+              "renderConfiguration": 0,
+              "renameTypeTo": ""
+            },
+            {
+              "name": "by",
+              "sourceType": 1,
+              "sourcePath": [],
+              "renderConfiguration": 0,
+              "renameTypeTo": ""
+            },
+            {
+              "name": "having",
+              "sourceType": 1,
+              "sourcePath": [],
+              "renderConfiguration": 0,
+              "renameTypeTo": ""
+            },
+            {
+              "name": "take",
+              "sourceType": 1,
+              "sourcePath": [],
+              "renderConfiguration": 0,
+              "renameTypeTo": ""
+            },
+            {
+              "name": "skip",
+              "sourceType": 1,
+              "sourcePath": [],
+              "renderConfiguration": 0,
+              "renameTypeTo": ""
+            }
+          ],
+          "requiresFields": [],
+          "unescapeResponseJson": false
+        },
+        {
+          "typeName": "Query",
+          "fieldName": "todo_findUniqueTodoOrThrow",
+          "disableDefaultFieldMapping": false,
+          "path": [
+            "findUniqueTodoOrThrow"
+          ],
+          "argumentsConfiguration": [
+            {
+              "name": "where",
+              "sourceType": 1,
+              "sourcePath": [],
+              "renderConfiguration": 0,
+              "renameTypeTo": ""
+            }
+          ],
+          "requiresFields": [],
+          "unescapeResponseJson": false
+        },
+        {
+          "typeName": "Mutation",
+          "fieldName": "todo_createOneTodo",
+          "disableDefaultFieldMapping": false,
+          "path": [
+            "createOneTodo"
+          ],
+          "argumentsConfiguration": [
+            {
+              "name": "data",
+              "sourceType": 1,
+              "sourcePath": [],
+              "renderConfiguration": 0,
+              "renameTypeTo": ""
+            }
+          ],
+          "requiresFields": [],
+          "unescapeResponseJson": false
+        },
+        {
+          "typeName": "Mutation",
+          "fieldName": "todo_upsertOneTodo",
+          "disableDefaultFieldMapping": false,
+          "path": [
+            "upsertOneTodo"
+          ],
+          "argumentsConfiguration": [
+            {
+              "name": "where",
+              "sourceType": 1,
+              "sourcePath": [],
+              "renderConfiguration": 0,
+              "renameTypeTo": ""
+            },
+            {
+              "name": "create",
+              "sourceType": 1,
+              "sourcePath": [],
+              "renderConfiguration": 0,
+              "renameTypeTo": ""
+            },
+            {
+              "name": "update",
+              "sourceType": 1,
+              "sourcePath": [],
+              "renderConfiguration": 0,
+              "renameTypeTo": ""
+            }
+          ],
+          "requiresFields": [],
+          "unescapeResponseJson": false
+        },
+        {
+          "typeName": "Mutation",
+          "fieldName": "todo_updateOneTodo",
+          "disableDefaultFieldMapping": false,
+          "path": [
+            "updateOneTodo"
+          ],
+          "argumentsConfiguration": [
+            {
+              "name": "data",
+              "sourceType": 1,
+              "sourcePath": [],
+              "renderConfiguration": 0,
+              "renameTypeTo": ""
+            },
+            {
+              "name": "where",
+              "sourceType": 1,
+              "sourcePath": [],
+              "renderConfiguration": 0,
+              "renameTypeTo": ""
+            }
+          ],
+          "requiresFields": [],
+          "unescapeResponseJson": false
+        },
+        {
+          "typeName": "Mutation",
+          "fieldName": "todo_queryRaw",
+          "disableDefaultFieldMapping": false,
+          "path": [
+            "queryRaw"
+          ],
+          "argumentsConfiguration": [
+            {
+              "name": "query",
+              "sourceType": 1,
+              "sourcePath": [],
+              "renderConfiguration": 0,
+              "renameTypeTo": ""
+            },
+            {
+              "name": "parameters",
               "sourceType": 1,
               "sourcePath": [],
               "renderConfiguration": 0,
@@ -2550,167 +2567,7 @@
         },
         {
           "typeName": "Query",
-          "fieldName": "todo_findUniqueTodo",
-          "disableDefaultFieldMapping": false,
-          "path": [
-            "findUniqueTodo"
-          ],
-          "argumentsConfiguration": [
-            {
-              "name": "where",
-              "sourceType": 1,
-              "sourcePath": [],
-              "renderConfiguration": 0,
-              "renameTypeTo": ""
-            }
-          ],
-          "requiresFields": [],
-          "unescapeResponseJson": false
-        },
-        {
-          "typeName": "Query",
-          "fieldName": "system_getRoleBindApis",
-          "disableDefaultFieldMapping": true,
-          "path": null,
-          "argumentsConfiguration": null,
-          "requiresFields": null,
-          "unescapeResponseJson": false
-        },
-        {
-          "typeName": "Query",
-          "fieldName": "todo_findFirstTodoOrThrow",
-          "disableDefaultFieldMapping": false,
-          "path": [
-            "findFirstTodoOrThrow"
-          ],
-          "argumentsConfiguration": [
-            {
-              "name": "where",
-              "sourceType": 1,
-              "sourcePath": [],
-              "renderConfiguration": 0,
-              "renameTypeTo": ""
-            },
-            {
-              "name": "orderBy",
-              "sourceType": 1,
-              "sourcePath": [],
-              "renderConfiguration": 0,
-              "renameTypeTo": ""
-            },
-            {
-              "name": "cursor",
-              "sourceType": 1,
-              "sourcePath": [],
-              "renderConfiguration": 0,
-              "renameTypeTo": ""
-            },
-            {
-              "name": "take",
-              "sourceType": 1,
-              "sourcePath": [],
-              "renderConfiguration": 0,
-              "renameTypeTo": ""
-            },
-            {
-              "name": "skip",
-              "sourceType": 1,
-              "sourcePath": [],
-              "renderConfiguration": 0,
-              "renameTypeTo": ""
-            },
-            {
-              "name": "distinct",
-              "sourceType": 1,
-              "sourcePath": [],
-              "renderConfiguration": 0,
-              "renameTypeTo": ""
-            }
-          ],
-          "requiresFields": [],
-          "unescapeResponseJson": false
-        },
-        {
-          "typeName": "Mutation",
-          "fieldName": "todo_upsertOneTodo",
-          "disableDefaultFieldMapping": false,
-          "path": [
-            "upsertOneTodo"
-          ],
-          "argumentsConfiguration": [
-            {
-              "name": "where",
-              "sourceType": 1,
-              "sourcePath": [],
-              "renderConfiguration": 0,
-              "renameTypeTo": ""
-            },
-            {
-              "name": "create",
-              "sourceType": 1,
-              "sourcePath": [],
-              "renderConfiguration": 0,
-              "renameTypeTo": ""
-            },
-            {
-              "name": "update",
-              "sourceType": 1,
-              "sourcePath": [],
-              "renderConfiguration": 0,
-              "renameTypeTo": ""
-            }
-          ],
-          "requiresFields": [],
-          "unescapeResponseJson": false
-        },
-        {
-          "typeName": "Mutation",
-          "fieldName": "todo_updateOneTodo",
-          "disableDefaultFieldMapping": false,
-          "path": [
-            "updateOneTodo"
-          ],
-          "argumentsConfiguration": [
-            {
-              "name": "data",
-              "sourceType": 1,
-              "sourcePath": [],
-              "renderConfiguration": 0,
-              "renameTypeTo": ""
-            },
-            {
-              "name": "where",
-              "sourceType": 1,
-              "sourcePath": [],
-              "renderConfiguration": 0,
-              "renameTypeTo": ""
-            }
-          ],
-          "requiresFields": [],
-          "unescapeResponseJson": false
-        },
-        {
-          "typeName": "Mutation",
-          "fieldName": "todo_deleteManyTodo",
-          "disableDefaultFieldMapping": false,
-          "path": [
-            "deleteManyTodo"
-          ],
-          "argumentsConfiguration": [
-            {
-              "name": "where",
-              "sourceType": 1,
-              "sourcePath": [],
-              "renderConfiguration": 0,
-              "renameTypeTo": ""
-            }
-          ],
-          "requiresFields": [],
-          "unescapeResponseJson": false
-        },
-        {
-          "typeName": "Query",
-          "fieldName": "system_getAllRoles",
+          "fieldName": "system_getAllApis",
           "disableDefaultFieldMapping": true,
           "path": null,
           "argumentsConfiguration": null,
@@ -2745,164 +2602,11 @@
         },
         {
           "typeName": "Mutation",
-          "fieldName": "todo_queryRaw",
-          "disableDefaultFieldMapping": false,
-          "path": [
-            "queryRaw"
-          ],
-          "argumentsConfiguration": [
-            {
-              "name": "query",
-              "sourceType": 1,
-              "sourcePath": [],
-              "renderConfiguration": 0,
-              "renameTypeTo": ""
-            },
-            {
-              "name": "parameters",
-              "sourceType": 1,
-              "sourcePath": [],
-              "renderConfiguration": 0,
-              "renameTypeTo": ""
-            }
-          ],
-          "requiresFields": [],
-          "unescapeResponseJson": false
-        },
-        {
-          "typeName": "Query",
-          "fieldName": "system_getAllApis",
-          "disableDefaultFieldMapping": true,
-          "path": null,
-          "argumentsConfiguration": null,
-          "requiresFields": null,
-          "unescapeResponseJson": false
-        },
-        {
-          "typeName": "Mutation",
           "fieldName": "system_bindRoleApis",
           "disableDefaultFieldMapping": true,
           "path": null,
           "argumentsConfiguration": null,
           "requiresFields": null,
-          "unescapeResponseJson": false
-        },
-        {
-          "typeName": "Query",
-          "fieldName": "todo_groupByTodo",
-          "disableDefaultFieldMapping": false,
-          "path": [
-            "groupByTodo"
-          ],
-          "argumentsConfiguration": [
-            {
-              "name": "where",
-              "sourceType": 1,
-              "sourcePath": [],
-              "renderConfiguration": 0,
-              "renameTypeTo": ""
-            },
-            {
-              "name": "orderBy",
-              "sourceType": 1,
-              "sourcePath": [],
-              "renderConfiguration": 0,
-              "renameTypeTo": ""
-            },
-            {
-              "name": "by",
-              "sourceType": 1,
-              "sourcePath": [],
-              "renderConfiguration": 0,
-              "renameTypeTo": ""
-            },
-            {
-              "name": "having",
-              "sourceType": 1,
-              "sourcePath": [],
-              "renderConfiguration": 0,
-              "renameTypeTo": ""
-            },
-            {
-              "name": "take",
-              "sourceType": 1,
-              "sourcePath": [],
-              "renderConfiguration": 0,
-              "renameTypeTo": ""
-            },
-            {
-              "name": "skip",
-              "sourceType": 1,
-              "sourcePath": [],
-              "renderConfiguration": 0,
-              "renameTypeTo": ""
-            }
-          ],
-          "requiresFields": [],
-          "unescapeResponseJson": false
-        },
-        {
-          "typeName": "Query",
-          "fieldName": "todo_findUniqueTodoOrThrow",
-          "disableDefaultFieldMapping": false,
-          "path": [
-            "findUniqueTodoOrThrow"
-          ],
-          "argumentsConfiguration": [
-            {
-              "name": "where",
-              "sourceType": 1,
-              "sourcePath": [],
-              "renderConfiguration": 0,
-              "renameTypeTo": ""
-            }
-          ],
-          "requiresFields": [],
-          "unescapeResponseJson": false
-        },
-        {
-          "typeName": "Mutation",
-          "fieldName": "todo_createOneTodo",
-          "disableDefaultFieldMapping": false,
-          "path": [
-            "createOneTodo"
-          ],
-          "argumentsConfiguration": [
-            {
-              "name": "data",
-              "sourceType": 1,
-              "sourcePath": [],
-              "renderConfiguration": 0,
-              "renameTypeTo": ""
-            }
-          ],
-          "requiresFields": [],
-          "unescapeResponseJson": false
-        },
-        {
-          "typeName": "Mutation",
-          "fieldName": "todo_updateManyTodo",
-          "disableDefaultFieldMapping": false,
-          "path": [
-            "updateManyTodo"
-          ],
-          "argumentsConfiguration": [
-            {
-              "name": "data",
-              "sourceType": 1,
-              "sourcePath": [],
-              "renderConfiguration": 0,
-              "renameTypeTo": ""
-            },
-            {
-              "name": "where",
-              "sourceType": 1,
-              "sourcePath": [],
-              "renderConfiguration": 0,
-              "renameTypeTo": ""
-            }
-          ],
-          "requiresFields": [],
           "unescapeResponseJson": false
         },
         {
@@ -2918,28 +2622,6 @@
         },
         {
           "typeName": "todo_TodoCountAggregateOutputType",
-          "fieldName": "_join",
-          "disableDefaultFieldMapping": true,
-          "path": [
-            "_join"
-          ],
-          "argumentsConfiguration": [],
-          "requiresFields": [],
-          "unescapeResponseJson": false
-        },
-        {
-          "typeName": "todo_TodoAvgAggregateOutputType",
-          "fieldName": "_join",
-          "disableDefaultFieldMapping": true,
-          "path": [
-            "_join"
-          ],
-          "argumentsConfiguration": [],
-          "requiresFields": [],
-          "unescapeResponseJson": false
-        },
-        {
-          "typeName": "todo_TodoSumAggregateOutputType",
           "fieldName": "_join",
           "disableDefaultFieldMapping": true,
           "path": [
@@ -2995,6 +2677,17 @@
         },
         {
           "typeName": "todo_AffectedRowsOutput",
+          "fieldName": "_join",
+          "disableDefaultFieldMapping": true,
+          "path": [
+            "_join"
+          ],
+          "argumentsConfiguration": [],
+          "requiresFields": [],
+          "unescapeResponseJson": false
+        },
+        {
+          "typeName": "system_MutationBindRoleApis",
           "fieldName": "_join",
           "disableDefaultFieldMapping": true,
           "path": [
@@ -3036,313 +2729,176 @@
           "argumentsConfiguration": [],
           "requiresFields": [],
           "unescapeResponseJson": false
-        },
-        {
-          "typeName": "system_MutationBindRoleApis",
-          "fieldName": "_join",
-          "disableDefaultFieldMapping": true,
-          "path": [
-            "_join"
-          ],
-          "argumentsConfiguration": [],
-          "requiresFields": [],
-          "unescapeResponseJson": false
         }
       ],
-      "graphqlSchema": "type Query {\n  todo_findFirstTodo(where: todo_TodoWhereInput, orderBy: [todo_TodoOrderByWithRelationInput], cursor: todo_TodoWhereUniqueInput, take: Int, skip: Int, distinct: [todo_TodoScalarFieldEnum]): todo_Todo\n  todo_findFirstTodoOrThrow(where: todo_TodoWhereInput, orderBy: [todo_TodoOrderByWithRelationInput], cursor: todo_TodoWhereUniqueInput, take: Int, skip: Int, distinct: [todo_TodoScalarFieldEnum]): todo_Todo\n  todo_findManyTodo(where: todo_TodoWhereInput, orderBy: [todo_TodoOrderByWithRelationInput], cursor: todo_TodoWhereUniqueInput, take: Int, skip: Int, distinct: [todo_TodoScalarFieldEnum]): [todo_Todo]!\n  todo_aggregateTodo(where: todo_TodoWhereInput, orderBy: [todo_TodoOrderByWithRelationInput], cursor: todo_TodoWhereUniqueInput, take: Int, skip: Int): todo_AggregateTodo!\n  todo_groupByTodo(where: todo_TodoWhereInput, orderBy: [todo_TodoOrderByWithAggregationInput], by: [todo_TodoScalarFieldEnum]!, having: todo_TodoScalarWhereWithAggregatesInput, take: Int, skip: Int): [todo_TodoGroupByOutputType]!\n  todo_findUniqueTodo(where: todo_TodoWhereUniqueInput!): todo_Todo\n  todo_findUniqueTodoOrThrow(where: todo_TodoWhereUniqueInput!): todo_Todo\n  system_getAllRoles: [system_QueryGetAllRoles]\n  system_getRoleBindApis(code: String!, roleType: system_Query_getRoleBindApis_roleType): [system_QueryGetRoleBindApis]\n  system_getAllApis: [system_QueryGetAllApis]\n}\n\ntype Mutation {\n  todo_createOneTodo(data: todo_TodoCreateInput!): todo_Todo\n  todo_upsertOneTodo(where: todo_TodoWhereUniqueInput!, create: todo_TodoCreateInput!, update: todo_TodoUpdateInput!): todo_Todo\n  todo_deleteOneTodo(where: todo_TodoWhereUniqueInput!): todo_Todo\n  todo_updateOneTodo(data: todo_TodoUpdateInput!, where: todo_TodoWhereUniqueInput!): todo_Todo\n  todo_updateManyTodo(data: todo_TodoUpdateManyMutationInput!, where: todo_TodoWhereInput): todo_AffectedRowsOutput\n  todo_deleteManyTodo(where: todo_TodoWhereInput): todo_AffectedRowsOutput\n  todo_executeRaw(query: String!, parameters: todo_Json): todo_Json\n  todo_queryRaw(query: String!, parameters: todo_Json): todo_Json\n  system_bindRoleApis(POSTApiV1RoleBindApiInput: system_POSTApiV1RoleBindApiInput): system_MutationBindRoleApis\n}\n\nschema {\n  query: Query\n  mutation: Mutation\n}\n\ninput todo_NestedIntFilter {\n  equals: Int\n  in: [Int]\n  notIn: [Int]\n  lt: Int\n  lte: Int\n  gt: Int\n  gte: Int\n  not: todo_NestedIntFilter\n}\n\ninput todo_IntFilter {\n  equals: Int\n  in: [Int]\n  notIn: [Int]\n  lt: Int\n  lte: Int\n  gt: Int\n  gte: Int\n  not: todo_NestedIntFilter\n}\n\ninput todo_NestedStringFilter {\n  equals: String\n  in: [String]\n  notIn: [String]\n  lt: String\n  lte: String\n  gt: String\n  gte: String\n  contains: String\n  startsWith: String\n  endsWith: String\n  not: todo_NestedStringFilter\n}\n\ninput todo_StringFilter {\n  equals: String\n  in: [String]\n  notIn: [String]\n  lt: String\n  lte: String\n  gt: String\n  gte: String\n  contains: String\n  startsWith: String\n  endsWith: String\n  not: todo_NestedStringFilter\n}\n\ninput todo_NestedBoolFilter {\n  equals: Boolean\n  not: todo_NestedBoolFilter\n}\n\ninput todo_BoolFilter {\n  equals: Boolean\n  not: todo_NestedBoolFilter\n}\n\ninput todo_NestedDateTimeFilter {\n  equals: DateTime\n  in: [DateTime]\n  notIn: [DateTime]\n  lt: DateTime\n  lte: DateTime\n  gt: DateTime\n  gte: DateTime\n  not: todo_NestedDateTimeFilter\n}\n\ninput todo_DateTimeFilter {\n  equals: DateTime\n  in: [DateTime]\n  notIn: [DateTime]\n  lt: DateTime\n  lte: DateTime\n  gt: DateTime\n  gte: DateTime\n  not: todo_NestedDateTimeFilter\n}\n\ninput todo_TodoWhereInput {\n  AND: todo_TodoWhereInput\n  OR: [todo_TodoWhereInput]\n  NOT: todo_TodoWhereInput\n  id: todo_IntFilter\n  title: todo_StringFilter\n  completed: todo_BoolFilter\n  createdAt: todo_DateTimeFilter\n}\n\nenum todo_SortOrder {\n  asc\n  desc\n}\n\ninput todo_TodoOrderByWithRelationInput {\n  id: todo_SortOrder\n  title: todo_SortOrder\n  completed: todo_SortOrder\n  createdAt: todo_SortOrder\n}\n\ninput todo_TodoWhereUniqueInput {\n  id: Int\n}\n\nenum todo_TodoScalarFieldEnum {\n  id\n  title\n  completed\n  createdAt\n}\n\ntype todo_Todo {\n  id: Int!\n  title: String!\n  completed: Boolean!\n  createdAt: DateTime!\n  _join: Query!\n}\n\ntype todo_TodoCountAggregateOutputType {\n  id: Int!\n  title: Int!\n  completed: Int!\n  createdAt: Int!\n  _all: Int!\n  _join: Query!\n}\n\ntype todo_TodoAvgAggregateOutputType {\n  id: Float\n  _join: Query!\n}\n\ntype todo_TodoSumAggregateOutputType {\n  id: Int\n  _join: Query!\n}\n\ntype todo_TodoMinAggregateOutputType {\n  id: Int\n  title: String\n  completed: Boolean\n  createdAt: DateTime\n  _join: Query!\n}\n\ntype todo_TodoMaxAggregateOutputType {\n  id: Int\n  title: String\n  completed: Boolean\n  createdAt: DateTime\n  _join: Query!\n}\n\ntype todo_AggregateTodo {\n  _count: todo_TodoCountAggregateOutputType\n  _avg: todo_TodoAvgAggregateOutputType\n  _sum: todo_TodoSumAggregateOutputType\n  _min: todo_TodoMinAggregateOutputType\n  _max: todo_TodoMaxAggregateOutputType\n  _join: Query!\n}\n\ninput todo_TodoCountOrderByAggregateInput {\n  id: todo_SortOrder\n  title: todo_SortOrder\n  completed: todo_SortOrder\n  createdAt: todo_SortOrder\n}\n\ninput todo_TodoAvgOrderByAggregateInput {\n  id: todo_SortOrder\n}\n\ninput todo_TodoMaxOrderByAggregateInput {\n  id: todo_SortOrder\n  title: todo_SortOrder\n  completed: todo_SortOrder\n  createdAt: todo_SortOrder\n}\n\ninput todo_TodoMinOrderByAggregateInput {\n  id: todo_SortOrder\n  title: todo_SortOrder\n  completed: todo_SortOrder\n  createdAt: todo_SortOrder\n}\n\ninput todo_TodoSumOrderByAggregateInput {\n  id: todo_SortOrder\n}\n\ninput todo_TodoOrderByWithAggregationInput {\n  id: todo_SortOrder\n  title: todo_SortOrder\n  completed: todo_SortOrder\n  createdAt: todo_SortOrder\n  _count: todo_TodoCountOrderByAggregateInput\n  _avg: todo_TodoAvgOrderByAggregateInput\n  _max: todo_TodoMaxOrderByAggregateInput\n  _min: todo_TodoMinOrderByAggregateInput\n  _sum: todo_TodoSumOrderByAggregateInput\n}\n\ninput todo_NestedFloatFilter {\n  equals: Float\n  in: [Float]\n  notIn: [Float]\n  lt: Float\n  lte: Float\n  gt: Float\n  gte: Float\n  not: todo_NestedFloatFilter\n}\n\ninput todo_NestedIntWithAggregatesFilter {\n  equals: Int\n  in: [Int]\n  notIn: [Int]\n  lt: Int\n  lte: Int\n  gt: Int\n  gte: Int\n  not: todo_NestedIntWithAggregatesFilter\n  _count: todo_NestedIntFilter\n  _avg: todo_NestedFloatFilter\n  _sum: todo_NestedIntFilter\n  _min: todo_NestedIntFilter\n  _max: todo_NestedIntFilter\n}\n\ninput todo_IntWithAggregatesFilter {\n  equals: Int\n  in: [Int]\n  notIn: [Int]\n  lt: Int\n  lte: Int\n  gt: Int\n  gte: Int\n  not: todo_NestedIntWithAggregatesFilter\n  _count: todo_NestedIntFilter\n  _avg: todo_NestedFloatFilter\n  _sum: todo_NestedIntFilter\n  _min: todo_NestedIntFilter\n  _max: todo_NestedIntFilter\n}\n\ninput todo_NestedStringWithAggregatesFilter {\n  equals: String\n  in: [String]\n  notIn: [String]\n  lt: String\n  lte: String\n  gt: String\n  gte: String\n  contains: String\n  startsWith: String\n  endsWith: String\n  not: todo_NestedStringWithAggregatesFilter\n  _count: todo_NestedIntFilter\n  _min: todo_NestedStringFilter\n  _max: todo_NestedStringFilter\n}\n\ninput todo_StringWithAggregatesFilter {\n  equals: String\n  in: [String]\n  notIn: [String]\n  lt: String\n  lte: String\n  gt: String\n  gte: String\n  contains: String\n  startsWith: String\n  endsWith: String\n  not: todo_NestedStringWithAggregatesFilter\n  _count: todo_NestedIntFilter\n  _min: todo_NestedStringFilter\n  _max: todo_NestedStringFilter\n}\n\ninput todo_NestedBoolWithAggregatesFilter {\n  equals: Boolean\n  not: todo_NestedBoolWithAggregatesFilter\n  _count: todo_NestedIntFilter\n  _min: todo_NestedBoolFilter\n  _max: todo_NestedBoolFilter\n}\n\ninput todo_BoolWithAggregatesFilter {\n  equals: Boolean\n  not: todo_NestedBoolWithAggregatesFilter\n  _count: todo_NestedIntFilter\n  _min: todo_NestedBoolFilter\n  _max: todo_NestedBoolFilter\n}\n\ninput todo_NestedDateTimeWithAggregatesFilter {\n  equals: DateTime\n  in: [DateTime]\n  notIn: [DateTime]\n  lt: DateTime\n  lte: DateTime\n  gt: DateTime\n  gte: DateTime\n  not: todo_NestedDateTimeWithAggregatesFilter\n  _count: todo_NestedIntFilter\n  _min: todo_NestedDateTimeFilter\n  _max: todo_NestedDateTimeFilter\n}\n\ninput todo_DateTimeWithAggregatesFilter {\n  equals: DateTime\n  in: [DateTime]\n  notIn: [DateTime]\n  lt: DateTime\n  lte: DateTime\n  gt: DateTime\n  gte: DateTime\n  not: todo_NestedDateTimeWithAggregatesFilter\n  _count: todo_NestedIntFilter\n  _min: todo_NestedDateTimeFilter\n  _max: todo_NestedDateTimeFilter\n}\n\ninput todo_TodoScalarWhereWithAggregatesInput {\n  AND: todo_TodoScalarWhereWithAggregatesInput\n  OR: [todo_TodoScalarWhereWithAggregatesInput]\n  NOT: todo_TodoScalarWhereWithAggregatesInput\n  id: todo_IntWithAggregatesFilter\n  title: todo_StringWithAggregatesFilter\n  completed: todo_BoolWithAggregatesFilter\n  createdAt: todo_DateTimeWithAggregatesFilter\n}\n\ntype todo_TodoGroupByOutputType {\n  id: Int!\n  title: String!\n  completed: Boolean!\n  createdAt: DateTime!\n  _count: todo_TodoCountAggregateOutputType\n  _avg: todo_TodoAvgAggregateOutputType\n  _sum: todo_TodoSumAggregateOutputType\n  _min: todo_TodoMinAggregateOutputType\n  _max: todo_TodoMaxAggregateOutputType\n  _join: Query!\n}\n\ninput todo_TodoCreateInput {\n  title: String!\n  completed: Boolean\n  createdAt: DateTime\n}\n\ninput todo_StringFieldUpdateOperationsInput {\n  set: String\n}\n\ninput todo_BoolFieldUpdateOperationsInput {\n  set: Boolean\n}\n\ninput todo_DateTimeFieldUpdateOperationsInput {\n  set: DateTime\n}\n\ninput todo_TodoUpdateInput {\n  title: todo_StringFieldUpdateOperationsInput\n  completed: todo_BoolFieldUpdateOperationsInput\n  createdAt: todo_DateTimeFieldUpdateOperationsInput\n}\n\ninput todo_TodoUpdateManyMutationInput {\n  title: todo_StringFieldUpdateOperationsInput\n  completed: todo_BoolFieldUpdateOperationsInput\n  createdAt: todo_DateTimeFieldUpdateOperationsInput\n}\n\ntype todo_AffectedRowsOutput {\n  count: Int!\n  _join: Query!\n}\n\nscalar DateTime\n\nscalar todo_Json\n\nscalar UUID\n\nscalar BigInt\n\nscalar todo_Decimal\n\nscalar todo_Bytes\n\ntype system_QueryGetAllRoles {\n  code: String\n  remark: String\n  _join: Query!\n}\n\ntype system_QueryGetRoleBindApis {\n  id: Int\n  title: String\n  updateTime: String\n  roles: String\n  content: String\n  operationType: String\n  restUrl: String\n  roleType: String\n  enabled: Boolean\n  illegal: Boolean\n  method: String\n  remark: String\n  createTime: String\n  deleteTime: String\n  isPublic: Boolean\n  liveQuery: Boolean\n  _join: Query!\n}\n\nenum system_Query_getRoleBindApis_roleType {\n  requireMatchAll\n  requireMatchAny\n  denyMatchAll\n  denyMatchAny\n}\n\ntype system_QueryGetAllApis {\n  content: String\n  illegal: Boolean\n  restUrl: String\n  deleteTime: String\n  roles: String\n  title: String\n  createTime: String\n  enabled: Boolean\n  liveQuery: Boolean\n  method: String\n  updateTime: String\n  id: Int\n  isPublic: Boolean\n  operationType: String\n  remark: String\n  roleType: String\n  _join: Query!\n}\n\ntype system_MutationBindRoleApis {\n  count: Int\n  _join: Query!\n}\n\ninput system_POSTApiV1RoleBindApiInput {\n  roleType: system_POSTApiV1RoleBindApiInput_roleType\n  roleCode: String!\n  apis: [Int]!\n  allRoles: [String]!\n}\n\nenum system_POSTApiV1RoleBindApiInput_roleType {\n  requireMatchAll\n  requireMatchAny\n  denyMatchAll\n  denyMatchAny\n}\n\ndirective @rbac(\n  \n  \"\"\"the user must match all roles\"\"\"\n  requireMatchAll: [WG_ROLE]\n  \n  \"\"\"the user must match at least one of the roles\"\"\"\n  requireMatchAny: [WG_ROLE]\n  \n  \"\"\"the user must not match all of the roles\"\"\"\n  denyMatchAll: [WG_ROLE]\n  \n  \"\"\"the user must not match any of the roles\"\"\"\n  denyMatchAny: [WG_ROLE]\n) on QUERY | MUTATION | SUBSCRIPTION\n\nenum WG_ROLE {\n  admin\n  user\n}\n\ndirective @fromClaim(name: Claim) on VARIABLE_DEFINITION\n\nenum Claim {\n  USERID\n  EMAIL\n  EMAIL_VERIFIED\n  NAME\n  NICKNAME\n  LOCATION\n  PROVIDER\n}\n\ndirective @hooksVariable on VARIABLE_DEFINITION\n\ndirective @jsonSchema(\n  \n  \"\"\"\n  The value of both of these keywords MUST be a string.\n  \n  Both of these keywords can be used to decorate a user interface with\n  information about the data produced by this user interface.  A title\n  will preferably be short, whereas a description will provide\n  explanation about the purpose of the instance described by this\n  schema.\n  \"\"\"\n  title: String\n  \n  \"\"\"\n  The value of both of these keywords MUST be a string.\n  \n  Both of these keywords can be used to decorate a user interface with\n  information about the data produced by this user interface.  A title\n  will preferably be short, whereas a description will provide\n  explanation about the purpose of the instance described by this\n  schema.\n  \"\"\"\n  description: String\n  \n  \"\"\"\n  The value of \"multipleOf\" MUST be a number, strictly greater than 0.\n  \n  A numeric instance is valid only if division by this keyword's value\n  results in an integer.\n  \"\"\"\n  multipleOf: Int\n  \n  \"\"\"\n  The value of \"maximum\" MUST be a number, representing an inclusive\n  upper limit for a numeric instance.\n  \n  If the instance is a number, then this keyword validates only if the\n  instance is less than or exactly equal to \"maximum\".\n  \"\"\"\n  maximum: Int\n  \n  \"\"\"\n  The value of \"exclusiveMaximum\" MUST be number, representing an\n  exclusive upper limit for a numeric instance.\n  \n  If the instance is a number, then the instance is valid only if it\n  has a value strictly less than (not equal to) \"exclusiveMaximum\".\n  \"\"\"\n  exclusiveMaximum: Int\n  \n  \"\"\"\n  The value of \"minimum\" MUST be a number, representing an inclusive\n  lower limit for a numeric instance.\n  \n  If the instance is a number, then this keyword validates only if the\n  instance is greater than or exactly equal to \"minimum\".\n  \"\"\"\n  minimum: Int\n  \n  \"\"\"\n  The value of \"exclusiveMinimum\" MUST be number, representing an\n  exclusive lower limit for a numeric instance.\n  \n  If the instance is a number, then the instance is valid only if it\n  has a value strictly greater than (not equal to) \"exclusiveMinimum\".\n  \"\"\"\n  exclusiveMinimum: Int\n  \n  \"\"\"\n  The value of this keyword MUST be a non-negative integer.\n  \n  A string instance is valid against this keyword if its length is less\n  than, or equal to, the value of this keyword.\n  \n  The length of a string instance is defined as the number of its\n  characters as defined by RFC 7159 [RFC7159].\n  \"\"\"\n  maxLength: Int\n  \n  \"\"\"\n  The value of this keyword MUST be a non-negative integer.\n  \n  A string instance is valid against this keyword if its length is\n  greater than, or equal to, the value of this keyword.\n  \n  The length of a string instance is defined as the number of its\n  characters as defined by RFC 7159 [RFC7159].\n  \n  Omitting this keyword has the same behavior as a value of 0.\n  \"\"\"\n  minLength: Int\n  \n  \"\"\"\n  The value of this keyword MUST be a string.  This string SHOULD be a\n  valid regular expression, according to the ECMA 262 regular\n  expression dialect.\n  \n  A string instance is considered valid if the regular expression\n  matches the instance successfully.  Recall: regular expressions are\n  not implicitly anchored.\n  \"\"\"\n  pattern: String\n  \n  \"\"\"\n  The value of this keyword MUST be a non-negative integer.\n  \n  An array instance is valid against \"maxItems\" if its size is less\n  than, or equal to, the value of this keyword.\n  \"\"\"\n  maxItems: Int\n  \n  \"\"\"\n  The value of this keyword MUST be a non-negative integer.\n  \n  An array instance is valid against \"minItems\" if its size is greater\n  than, or equal to, the value of this keyword.\n  \n  Omitting this keyword has the same behavior as a value of 0.\n  \"\"\"\n  minItems: Int\n  \n  \"\"\"\n  The value of this keyword MUST be a boolean.\n  \n  If this keyword has boolean value false, the instance validates\n  successfully.  If it has boolean value true, the instance validates\n  successfully if all of its elements are unique.\n  \n  Omitting this keyword has the same behavior as a value of false.\n  \"\"\"\n  uniqueItems: Boolean\n  commonPattern: COMMON_REGEX_PATTERN\n) on VARIABLE_DEFINITION\n\nenum COMMON_REGEX_PATTERN {\n  EMAIL\n  DOMAIN\n}\n\n\"\"\"\nThe directive @injectCurrentDateTime injects a DateTime string of the current date and time into the variable.\nThis variable MUST be a string compatible scalar. \n\nThe default format, is: ISO 8601\nIf no format is chosen, the default format is used.\nCustom formats are allowed by specifying a format conforming to the Golang specification for specifying a date time format.\n\"\"\"\ndirective @injectCurrentDateTime(\n  format: WunderGraphDateTimeFormat = ISO8601\n  \n  \"\"\"customFormat must conform to the Golang specification for specifying a date time format\"\"\"\n  customFormat: String\n) on VARIABLE_DEFINITION\n\nenum WunderGraphDateTimeFormat {\n  \n  \"\"\"2006-01-02T15:04:05-0700\"\"\"\n  ISO8601\n  \n  \"\"\"Mon Jan _2 15:04:05 2006\"\"\"\n  ANSIC\n  \n  \"\"\"Mon Jan _2 15:04:05 MST 2006\"\"\"\n  UnixDate\n  \n  \"\"\"Mon Jan 02 15:04:05 -0700 2006\"\"\"\n  RubyDate\n  \n  \"\"\"02 Jan 06 15:04 MST\"\"\"\n  RFC822\n  \n  \"\"\"02 Jan 06 15:04 -0700\"\"\"\n  RFC822Z\n  \n  \"\"\"Monday, 02-Jan-06 15:04:05 MST\"\"\"\n  RFC850\n  \n  \"\"\"Mon, 02 Jan 2006 15:04:05 MST\"\"\"\n  RFC1123\n  \n  \"\"\"Mon, 02 Jan 2006 15:04:05 -0700\"\"\"\n  RFC1123Z\n  \n  \"\"\"2006-01-02T15:04:05Z07:00\"\"\"\n  RFC3339\n  \n  \"\"\"2006-01-02T15:04:05.999999999Z07:00\"\"\"\n  RFC3339Nano\n  \n  \"\"\"3:04PM\"\"\"\n  Kitchen\n  \n  \"\"\"Jan _2 15:04:05\"\"\"\n  Stamp\n  \n  \"\"\"Jan _2 15:04:05.000\"\"\"\n  StampMilli\n  \n  \"\"\"Jan _2 15:04:05.000000\"\"\"\n  StampMicro\n  \n  \"\"\"Jan _2 15:04:05.000000000\"\"\"\n  StampNano\n}\n\n\"\"\"\nThe directive @injectGeneratedUUID injects a generated UUID into the variable.\nThis variable MUST be a string.\nAt the same time, it removes the variable from the input definition,\ndisallowing the user to supply it.\n\nThis means, the UUID is 100% generated server-side and can be considered untempered.\n\"\"\"\ndirective @injectGeneratedUUID on VARIABLE_DEFINITION\n\n\"\"\"\nThe @internalOperation Directive marks an Operation as internal.\nBy doing so, the Operation is no longer accessible from the public API.\nIt can only be accessed by internal services, like hooks.\n\"\"\"\ndirective @internalOperation on QUERY | MUTATION | SUBSCRIPTION\n\n\"\"\"The directive @injectEnvironmentVariable allows you to inject an environment variable into the variable definition.\"\"\"\ndirective @injectEnvironmentVariable(name: String!) on VARIABLE_DEFINITION\n\n\"\"\"\nThe @export directive instructs the Execution Planner to export the field during the execution into the variable of the 'as' argument.\nAs the execution is depth first, a field can only be used after it has been exported.\nAdditionally, a field can only be used after using the '_join' field or on a different data source.\nIt's not possible to export a field and use it in for the same data source.\n\nNote that the @export directive only works on fields that return a single value.\nIt's not possible to export a list or object field.\n\"\"\"\ndirective @export(\n  \n  \"\"\"The argument 'as' is the name of the variable to export the field to.\"\"\"\n  as: String!\n) on FIELD\n\n\"\"\"\nThe directive @internal marks a variable definition as internal so that clients can't access it.\nThe field is also not visible in the public API.\nIt's only being used as an internal variable to export fields into.\n\"\"\"\ndirective @internal on VARIABLE_DEFINITION\n\n\"\"\"\nThe @transform directive allows to apply transformations to the response.\nBy applying the directive, the shape of the response can be altered,\nwhich will also modify the JSON-Schema of the response.\nThat is, you will keep full type safety and code-generation for transformed fields.\n\"\"\"\ndirective @transform(\n  \n  \"\"\"\n  Using the 'get' transformation allows you to extract a nested field using a JSON path.\n  This is useful to unnest data, e.g. when using the '_join' field, which adds an extra layer of nesting.\n  \n  Example:\n  \n  query GetName {\n  name: me @transform(get: \"info.name\") {\n      info {\n          name\n      }\n  }\n  }\n  \n  Before the transformation, the resolve looks like this:\n  \n  {\n  \"name\": {\n      \"info\": {\n          \"name\": \"John Doe\"\n      }\n  }\n  }\n  \n  With the transformation applied, the response will be reshaped like this:\n  \n  {\n  \"name\": \"John Doe\"\n  }\n  \"\"\"\n  get: String\n) on FIELD\n",
+      "graphqlSchema": "type Query {\n  todo_findFirstTodo(where: todo_TodoWhereInput, orderBy: [todo_TodoOrderByWithRelationInput], cursor: todo_TodoWhereUniqueInput, take: Int, skip: Int, distinct: [todo_TodoScalarFieldEnum]): todo_Todo\n  todo_findFirstTodoOrThrow(where: todo_TodoWhereInput, orderBy: [todo_TodoOrderByWithRelationInput], cursor: todo_TodoWhereUniqueInput, take: Int, skip: Int, distinct: [todo_TodoScalarFieldEnum]): todo_Todo\n  todo_findManyTodo(where: todo_TodoWhereInput, orderBy: [todo_TodoOrderByWithRelationInput], cursor: todo_TodoWhereUniqueInput, take: Int, skip: Int, distinct: [todo_TodoScalarFieldEnum]): [todo_Todo]!\n  todo_aggregateTodo(where: todo_TodoWhereInput, orderBy: [todo_TodoOrderByWithRelationInput], cursor: todo_TodoWhereUniqueInput, take: Int, skip: Int): todo_AggregateTodo!\n  todo_groupByTodo(where: todo_TodoWhereInput, orderBy: [todo_TodoOrderByWithAggregationInput], by: [todo_TodoScalarFieldEnum]!, having: todo_TodoScalarWhereWithAggregatesInput, take: Int, skip: Int): [todo_TodoGroupByOutputType]!\n  todo_findUniqueTodo(where: todo_TodoWhereUniqueInput!): todo_Todo\n  todo_findUniqueTodoOrThrow(where: todo_TodoWhereUniqueInput!): todo_Todo\n  system_getAllRoles: [system_QueryGetAllRoles]\n  system_getRoleBindApis(code: String!, roleType: system_Query_getRoleBindApis_roleType): [system_QueryGetRoleBindApis]\n  system_getAllApis: [system_QueryGetAllApis]\n}\n\ntype Mutation {\n  todo_createOneTodo(data: todo_TodoCreateInput!): todo_Todo\n  todo_upsertOneTodo(where: todo_TodoWhereUniqueInput!, create: todo_TodoCreateInput!, update: todo_TodoUpdateInput!): todo_Todo\n  todo_deleteOneTodo(where: todo_TodoWhereUniqueInput!): todo_Todo\n  todo_updateOneTodo(data: todo_TodoUpdateInput!, where: todo_TodoWhereUniqueInput!): todo_Todo\n  todo_updateManyTodo(data: todo_TodoUpdateManyMutationInput!, where: todo_TodoWhereInput): todo_AffectedRowsOutput\n  todo_deleteManyTodo(where: todo_TodoWhereInput): todo_AffectedRowsOutput\n  todo_executeRaw(query: String!, parameters: todo_Json): todo_Json\n  todo_queryRaw(query: String!, parameters: todo_Json): todo_Json\n  system_bindRoleApis(POSTApiV1RoleBindApiInput: system_POSTApiV1RoleBindApiInput): system_MutationBindRoleApis\n}\n\nschema {\n  query: Query\n  mutation: Mutation\n}\n\ninput todo_NestedStringFilter {\n  equals: String\n  in: [String]\n  notIn: [String]\n  lt: String\n  lte: String\n  gt: String\n  gte: String\n  contains: String\n  startsWith: String\n  endsWith: String\n  not: todo_NestedStringFilter\n}\n\ninput todo_StringFilter {\n  equals: String\n  in: [String]\n  notIn: [String]\n  lt: String\n  lte: String\n  gt: String\n  gte: String\n  contains: String\n  startsWith: String\n  endsWith: String\n  not: todo_NestedStringFilter\n}\n\ninput todo_NestedBoolFilter {\n  equals: Boolean\n  not: todo_NestedBoolFilter\n}\n\ninput todo_BoolFilter {\n  equals: Boolean\n  not: todo_NestedBoolFilter\n}\n\ninput todo_NestedDateTimeFilter {\n  equals: DateTime\n  in: [DateTime]\n  notIn: [DateTime]\n  lt: DateTime\n  lte: DateTime\n  gt: DateTime\n  gte: DateTime\n  not: todo_NestedDateTimeFilter\n}\n\ninput todo_DateTimeFilter {\n  equals: DateTime\n  in: [DateTime]\n  notIn: [DateTime]\n  lt: DateTime\n  lte: DateTime\n  gt: DateTime\n  gte: DateTime\n  not: todo_NestedDateTimeFilter\n}\n\ninput todo_TodoWhereInput {\n  AND: todo_TodoWhereInput\n  OR: [todo_TodoWhereInput]\n  NOT: todo_TodoWhereInput\n  id: todo_StringFilter\n  title: todo_StringFilter\n  completed: todo_BoolFilter\n  createdAt: todo_DateTimeFilter\n}\n\nenum todo_SortOrder {\n  asc\n  desc\n}\n\ninput todo_TodoOrderByWithRelationInput {\n  id: todo_SortOrder\n  title: todo_SortOrder\n  completed: todo_SortOrder\n  createdAt: todo_SortOrder\n}\n\ninput todo_TodoWhereUniqueInput {\n  id: String\n}\n\nenum todo_TodoScalarFieldEnum {\n  id\n  title\n  completed\n  createdAt\n}\n\ntype todo_Todo {\n  id: String!\n  title: String!\n  completed: Boolean!\n  createdAt: DateTime!\n  _join: Query!\n}\n\ntype todo_TodoCountAggregateOutputType {\n  id: Int!\n  title: Int!\n  completed: Int!\n  createdAt: Int!\n  _all: Int!\n  _join: Query!\n}\n\ntype todo_TodoMinAggregateOutputType {\n  id: String\n  title: String\n  completed: Boolean\n  createdAt: DateTime\n  _join: Query!\n}\n\ntype todo_TodoMaxAggregateOutputType {\n  id: String\n  title: String\n  completed: Boolean\n  createdAt: DateTime\n  _join: Query!\n}\n\ntype todo_AggregateTodo {\n  _count: todo_TodoCountAggregateOutputType\n  _min: todo_TodoMinAggregateOutputType\n  _max: todo_TodoMaxAggregateOutputType\n  _join: Query!\n}\n\ninput todo_TodoCountOrderByAggregateInput {\n  id: todo_SortOrder\n  title: todo_SortOrder\n  completed: todo_SortOrder\n  createdAt: todo_SortOrder\n}\n\ninput todo_TodoMaxOrderByAggregateInput {\n  id: todo_SortOrder\n  title: todo_SortOrder\n  completed: todo_SortOrder\n  createdAt: todo_SortOrder\n}\n\ninput todo_TodoMinOrderByAggregateInput {\n  id: todo_SortOrder\n  title: todo_SortOrder\n  completed: todo_SortOrder\n  createdAt: todo_SortOrder\n}\n\ninput todo_TodoOrderByWithAggregationInput {\n  id: todo_SortOrder\n  title: todo_SortOrder\n  completed: todo_SortOrder\n  createdAt: todo_SortOrder\n  _count: todo_TodoCountOrderByAggregateInput\n  _max: todo_TodoMaxOrderByAggregateInput\n  _min: todo_TodoMinOrderByAggregateInput\n}\n\ninput todo_NestedIntFilter {\n  equals: Int\n  in: [Int]\n  notIn: [Int]\n  lt: Int\n  lte: Int\n  gt: Int\n  gte: Int\n  not: todo_NestedIntFilter\n}\n\ninput todo_NestedStringWithAggregatesFilter {\n  equals: String\n  in: [String]\n  notIn: [String]\n  lt: String\n  lte: String\n  gt: String\n  gte: String\n  contains: String\n  startsWith: String\n  endsWith: String\n  not: todo_NestedStringWithAggregatesFilter\n  _count: todo_NestedIntFilter\n  _min: todo_NestedStringFilter\n  _max: todo_NestedStringFilter\n}\n\ninput todo_StringWithAggregatesFilter {\n  equals: String\n  in: [String]\n  notIn: [String]\n  lt: String\n  lte: String\n  gt: String\n  gte: String\n  contains: String\n  startsWith: String\n  endsWith: String\n  not: todo_NestedStringWithAggregatesFilter\n  _count: todo_NestedIntFilter\n  _min: todo_NestedStringFilter\n  _max: todo_NestedStringFilter\n}\n\ninput todo_NestedBoolWithAggregatesFilter {\n  equals: Boolean\n  not: todo_NestedBoolWithAggregatesFilter\n  _count: todo_NestedIntFilter\n  _min: todo_NestedBoolFilter\n  _max: todo_NestedBoolFilter\n}\n\ninput todo_BoolWithAggregatesFilter {\n  equals: Boolean\n  not: todo_NestedBoolWithAggregatesFilter\n  _count: todo_NestedIntFilter\n  _min: todo_NestedBoolFilter\n  _max: todo_NestedBoolFilter\n}\n\ninput todo_NestedDateTimeWithAggregatesFilter {\n  equals: DateTime\n  in: [DateTime]\n  notIn: [DateTime]\n  lt: DateTime\n  lte: DateTime\n  gt: DateTime\n  gte: DateTime\n  not: todo_NestedDateTimeWithAggregatesFilter\n  _count: todo_NestedIntFilter\n  _min: todo_NestedDateTimeFilter\n  _max: todo_NestedDateTimeFilter\n}\n\ninput todo_DateTimeWithAggregatesFilter {\n  equals: DateTime\n  in: [DateTime]\n  notIn: [DateTime]\n  lt: DateTime\n  lte: DateTime\n  gt: DateTime\n  gte: DateTime\n  not: todo_NestedDateTimeWithAggregatesFilter\n  _count: todo_NestedIntFilter\n  _min: todo_NestedDateTimeFilter\n  _max: todo_NestedDateTimeFilter\n}\n\ninput todo_TodoScalarWhereWithAggregatesInput {\n  AND: todo_TodoScalarWhereWithAggregatesInput\n  OR: [todo_TodoScalarWhereWithAggregatesInput]\n  NOT: todo_TodoScalarWhereWithAggregatesInput\n  id: todo_StringWithAggregatesFilter\n  title: todo_StringWithAggregatesFilter\n  completed: todo_BoolWithAggregatesFilter\n  createdAt: todo_DateTimeWithAggregatesFilter\n}\n\ntype todo_TodoGroupByOutputType {\n  id: String!\n  title: String!\n  completed: Boolean!\n  createdAt: DateTime!\n  _count: todo_TodoCountAggregateOutputType\n  _min: todo_TodoMinAggregateOutputType\n  _max: todo_TodoMaxAggregateOutputType\n  _join: Query!\n}\n\ninput todo_TodoCreateInput {\n  id: String!\n  title: String!\n  completed: Boolean\n  createdAt: DateTime\n}\n\ninput todo_StringFieldUpdateOperationsInput {\n  set: String\n}\n\ninput todo_BoolFieldUpdateOperationsInput {\n  set: Boolean\n}\n\ninput todo_DateTimeFieldUpdateOperationsInput {\n  set: DateTime\n}\n\ninput todo_TodoUpdateInput {\n  id: todo_StringFieldUpdateOperationsInput\n  title: todo_StringFieldUpdateOperationsInput\n  completed: todo_BoolFieldUpdateOperationsInput\n  createdAt: todo_DateTimeFieldUpdateOperationsInput\n}\n\ninput todo_TodoUpdateManyMutationInput {\n  id: todo_StringFieldUpdateOperationsInput\n  title: todo_StringFieldUpdateOperationsInput\n  completed: todo_BoolFieldUpdateOperationsInput\n  createdAt: todo_DateTimeFieldUpdateOperationsInput\n}\n\ntype todo_AffectedRowsOutput {\n  count: Int!\n  _join: Query!\n}\n\nscalar DateTime\n\nscalar todo_Json\n\nscalar UUID\n\nscalar BigInt\n\nscalar todo_Decimal\n\nscalar todo_Bytes\n\ntype system_MutationBindRoleApis {\n  count: Int\n  _join: Query!\n}\n\ninput system_POSTApiV1RoleBindApiInput {\n  roleType: system_POSTApiV1RoleBindApiInput_roleType\n  roleCode: String!\n  apis: [Int]!\n  allRoles: [String]!\n}\n\nenum system_POSTApiV1RoleBindApiInput_roleType {\n  requireMatchAll\n  requireMatchAny\n  denyMatchAll\n  denyMatchAny\n}\n\ntype system_QueryGetAllRoles {\n  code: String\n  remark: String\n  _join: Query!\n}\n\ntype system_QueryGetRoleBindApis {\n  liveQuery: Boolean\n  method: String\n  title: String\n  illegal: Boolean\n  operationType: String\n  restUrl: String\n  roles: String\n  content: String\n  deleteTime: String\n  id: Int\n  remark: String\n  roleType: String\n  updateTime: String\n  createTime: String\n  enabled: Boolean\n  isPublic: Boolean\n  _join: Query!\n}\n\nenum system_Query_getRoleBindApis_roleType {\n  requireMatchAll\n  requireMatchAny\n  denyMatchAll\n  denyMatchAny\n}\n\ntype system_QueryGetAllApis {\n  title: String\n  enabled: Boolean\n  operationType: String\n  roleType: String\n  restUrl: String\n  roles: String\n  updateTime: String\n  id: Int\n  illegal: Boolean\n  remark: String\n  createTime: String\n  deleteTime: String\n  method: String\n  content: String\n  isPublic: Boolean\n  liveQuery: Boolean\n  _join: Query!\n}\n\ndirective @rbac(\n  \n  \"\"\"the user must match all roles\"\"\"\n  requireMatchAll: [WG_ROLE]\n  \n  \"\"\"the user must match at least one of the roles\"\"\"\n  requireMatchAny: [WG_ROLE]\n  \n  \"\"\"the user must not match all of the roles\"\"\"\n  denyMatchAll: [WG_ROLE]\n  \n  \"\"\"the user must not match any of the roles\"\"\"\n  denyMatchAny: [WG_ROLE]\n) on QUERY | MUTATION | SUBSCRIPTION\n\nenum WG_ROLE {\n  admin\n  user\n}\n\ndirective @fromClaim(name: Claim) on VARIABLE_DEFINITION\n\nenum Claim {\n  USERID\n  EMAIL\n  EMAIL_VERIFIED\n  NAME\n  NICKNAME\n  LOCATION\n  PROVIDER\n}\n\ndirective @hooksVariable on VARIABLE_DEFINITION\n\ndirective @jsonSchema(\n  \n  \"\"\"\n  The value of both of these keywords MUST be a string.\n  \n  Both of these keywords can be used to decorate a user interface with\n  information about the data produced by this user interface.  A title\n  will preferably be short, whereas a description will provide\n  explanation about the purpose of the instance described by this\n  schema.\n  \"\"\"\n  title: String\n  \n  \"\"\"\n  The value of both of these keywords MUST be a string.\n  \n  Both of these keywords can be used to decorate a user interface with\n  information about the data produced by this user interface.  A title\n  will preferably be short, whereas a description will provide\n  explanation about the purpose of the instance described by this\n  schema.\n  \"\"\"\n  description: String\n  \n  \"\"\"\n  The value of \"multipleOf\" MUST be a number, strictly greater than 0.\n  \n  A numeric instance is valid only if division by this keyword's value\n  results in an integer.\n  \"\"\"\n  multipleOf: Int\n  \n  \"\"\"\n  The value of \"maximum\" MUST be a number, representing an inclusive\n  upper limit for a numeric instance.\n  \n  If the instance is a number, then this keyword validates only if the\n  instance is less than or exactly equal to \"maximum\".\n  \"\"\"\n  maximum: Int\n  \n  \"\"\"\n  The value of \"exclusiveMaximum\" MUST be number, representing an\n  exclusive upper limit for a numeric instance.\n  \n  If the instance is a number, then the instance is valid only if it\n  has a value strictly less than (not equal to) \"exclusiveMaximum\".\n  \"\"\"\n  exclusiveMaximum: Int\n  \n  \"\"\"\n  The value of \"minimum\" MUST be a number, representing an inclusive\n  lower limit for a numeric instance.\n  \n  If the instance is a number, then this keyword validates only if the\n  instance is greater than or exactly equal to \"minimum\".\n  \"\"\"\n  minimum: Int\n  \n  \"\"\"\n  The value of \"exclusiveMinimum\" MUST be number, representing an\n  exclusive lower limit for a numeric instance.\n  \n  If the instance is a number, then the instance is valid only if it\n  has a value strictly greater than (not equal to) \"exclusiveMinimum\".\n  \"\"\"\n  exclusiveMinimum: Int\n  \n  \"\"\"\n  The value of this keyword MUST be a non-negative integer.\n  \n  A string instance is valid against this keyword if its length is less\n  than, or equal to, the value of this keyword.\n  \n  The length of a string instance is defined as the number of its\n  characters as defined by RFC 7159 [RFC7159].\n  \"\"\"\n  maxLength: Int\n  \n  \"\"\"\n  The value of this keyword MUST be a non-negative integer.\n  \n  A string instance is valid against this keyword if its length is\n  greater than, or equal to, the value of this keyword.\n  \n  The length of a string instance is defined as the number of its\n  characters as defined by RFC 7159 [RFC7159].\n  \n  Omitting this keyword has the same behavior as a value of 0.\n  \"\"\"\n  minLength: Int\n  \n  \"\"\"\n  The value of this keyword MUST be a string.  This string SHOULD be a\n  valid regular expression, according to the ECMA 262 regular\n  expression dialect.\n  \n  A string instance is considered valid if the regular expression\n  matches the instance successfully.  Recall: regular expressions are\n  not implicitly anchored.\n  \"\"\"\n  pattern: String\n  \n  \"\"\"\n  The value of this keyword MUST be a non-negative integer.\n  \n  An array instance is valid against \"maxItems\" if its size is less\n  than, or equal to, the value of this keyword.\n  \"\"\"\n  maxItems: Int\n  \n  \"\"\"\n  The value of this keyword MUST be a non-negative integer.\n  \n  An array instance is valid against \"minItems\" if its size is greater\n  than, or equal to, the value of this keyword.\n  \n  Omitting this keyword has the same behavior as a value of 0.\n  \"\"\"\n  minItems: Int\n  \n  \"\"\"\n  The value of this keyword MUST be a boolean.\n  \n  If this keyword has boolean value false, the instance validates\n  successfully.  If it has boolean value true, the instance validates\n  successfully if all of its elements are unique.\n  \n  Omitting this keyword has the same behavior as a value of false.\n  \"\"\"\n  uniqueItems: Boolean\n  commonPattern: COMMON_REGEX_PATTERN\n) on VARIABLE_DEFINITION\n\nenum COMMON_REGEX_PATTERN {\n  EMAIL\n  DOMAIN\n}\n\n\"\"\"\nThe directive @injectCurrentDateTime injects a DateTime string of the current date and time into the variable.\nThis variable MUST be a string compatible scalar. \n\nThe default format, is: ISO 8601\nIf no format is chosen, the default format is used.\nCustom formats are allowed by specifying a format conforming to the Golang specification for specifying a date time format.\n\"\"\"\ndirective @injectCurrentDateTime(\n  format: WunderGraphDateTimeFormat = ISO8601\n  \n  \"\"\"customFormat must conform to the Golang specification for specifying a date time format\"\"\"\n  customFormat: String\n) on VARIABLE_DEFINITION\n\nenum WunderGraphDateTimeFormat {\n  \n  \"\"\"2006-01-02T15:04:05-0700\"\"\"\n  ISO8601\n  \n  \"\"\"Mon Jan _2 15:04:05 2006\"\"\"\n  ANSIC\n  \n  \"\"\"Mon Jan _2 15:04:05 MST 2006\"\"\"\n  UnixDate\n  \n  \"\"\"Mon Jan 02 15:04:05 -0700 2006\"\"\"\n  RubyDate\n  \n  \"\"\"02 Jan 06 15:04 MST\"\"\"\n  RFC822\n  \n  \"\"\"02 Jan 06 15:04 -0700\"\"\"\n  RFC822Z\n  \n  \"\"\"Monday, 02-Jan-06 15:04:05 MST\"\"\"\n  RFC850\n  \n  \"\"\"Mon, 02 Jan 2006 15:04:05 MST\"\"\"\n  RFC1123\n  \n  \"\"\"Mon, 02 Jan 2006 15:04:05 -0700\"\"\"\n  RFC1123Z\n  \n  \"\"\"2006-01-02T15:04:05Z07:00\"\"\"\n  RFC3339\n  \n  \"\"\"2006-01-02T15:04:05.999999999Z07:00\"\"\"\n  RFC3339Nano\n  \n  \"\"\"3:04PM\"\"\"\n  Kitchen\n  \n  \"\"\"Jan _2 15:04:05\"\"\"\n  Stamp\n  \n  \"\"\"Jan _2 15:04:05.000\"\"\"\n  StampMilli\n  \n  \"\"\"Jan _2 15:04:05.000000\"\"\"\n  StampMicro\n  \n  \"\"\"Jan _2 15:04:05.000000000\"\"\"\n  StampNano\n}\n\n\"\"\"\nThe directive @injectGeneratedUUID injects a generated UUID into the variable.\nThis variable MUST be a string.\nAt the same time, it removes the variable from the input definition,\ndisallowing the user to supply it.\n\nThis means, the UUID is 100% generated server-side and can be considered untempered.\n\"\"\"\ndirective @injectGeneratedUUID on VARIABLE_DEFINITION\n\n\"\"\"\nThe @internalOperation Directive marks an Operation as internal.\nBy doing so, the Operation is no longer accessible from the public API.\nIt can only be accessed by internal services, like hooks.\n\"\"\"\ndirective @internalOperation on QUERY | MUTATION | SUBSCRIPTION\n\n\"\"\"The directive @injectEnvironmentVariable allows you to inject an environment variable into the variable definition.\"\"\"\ndirective @injectEnvironmentVariable(name: String!) on VARIABLE_DEFINITION\n\n\"\"\"\nThe @export directive instructs the Execution Planner to export the field during the execution into the variable of the 'as' argument.\nAs the execution is depth first, a field can only be used after it has been exported.\nAdditionally, a field can only be used after using the '_join' field or on a different data source.\nIt's not possible to export a field and use it in for the same data source.\n\nNote that the @export directive only works on fields that return a single value.\nIt's not possible to export a list or object field.\n\"\"\"\ndirective @export(\n  \n  \"\"\"The argument 'as' is the name of the variable to export the field to.\"\"\"\n  as: String!\n) on FIELD\n\n\"\"\"\nThe directive @internal marks a variable definition as internal so that clients can't access it.\nThe field is also not visible in the public API.\nIt's only being used as an internal variable to export fields into.\n\"\"\"\ndirective @internal on VARIABLE_DEFINITION\n\n\"\"\"\nThe @transform directive allows to apply transformations to the response.\nBy applying the directive, the shape of the response can be altered,\nwhich will also modify the JSON-Schema of the response.\nThat is, you will keep full type safety and code-generation for transformed fields.\n\"\"\"\ndirective @transform(\n  \n  \"\"\"\n  Using the 'get' transformation allows you to extract a nested field using a JSON path.\n  This is useful to unnest data, e.g. when using the '_join' field, which adds an extra layer of nesting.\n  \n  Example:\n  \n  query GetName {\n  name: me @transform(get: \"info.name\") {\n      info {\n          name\n      }\n  }\n  }\n  \n  Before the transformation, the resolve looks like this:\n  \n  {\n  \"name\": {\n      \"info\": {\n          \"name\": \"John Doe\"\n      }\n  }\n  }\n  \n  With the transformation applied, the response will be reshaped like this:\n  \n  {\n  \"name\": \"John Doe\"\n  }\n  \"\"\"\n  get: String\n) on FIELD\n",
       "typeConfigurations": [
         {
-          "typeName": "todo_NestedIntFilter",
-          "renameTo": "NestedIntFilter"
-        },
-        {
-          "typeName": "todo_Todo",
-          "renameTo": "Todo"
-        },
-        {
-          "typeName": "todo_TodoMaxAggregateOutputType",
-          "renameTo": "TodoMaxAggregateOutputType"
-        },
-        {
-          "typeName": "todo_AggregateTodo",
-          "renameTo": "AggregateTodo"
-        },
-        {
-          "typeName": "todo_TodoAvgOrderByAggregateInput",
-          "renameTo": "TodoAvgOrderByAggregateInput"
-        },
-        {
-          "typeName": "todo_IntWithAggregatesFilter",
-          "renameTo": "IntWithAggregatesFilter"
-        },
-        {
-          "typeName": "todo_StringWithAggregatesFilter",
-          "renameTo": "StringWithAggregatesFilter"
-        },
-        {
-          "typeName": "todo_DateTimeFieldUpdateOperationsInput",
-          "renameTo": "DateTimeFieldUpdateOperationsInput"
-        },
-        {
-          "typeName": "todo_TodoUpdateInput",
-          "renameTo": "TodoUpdateInput"
-        },
-        {
-          "typeName": "todo_NestedStringFilter",
-          "renameTo": "NestedStringFilter"
-        },
-        {
-          "typeName": "todo_TodoOrderByWithAggregationInput",
-          "renameTo": "TodoOrderByWithAggregationInput"
-        },
-        {
-          "typeName": "todo_NestedDateTimeWithAggregatesFilter",
-          "renameTo": "NestedDateTimeWithAggregatesFilter"
-        },
-        {
-          "typeName": "todo_StringFieldUpdateOperationsInput",
-          "renameTo": "StringFieldUpdateOperationsInput"
-        },
-        {
-          "typeName": "todo_TodoUpdateManyMutationInput",
-          "renameTo": "TodoUpdateManyMutationInput"
-        },
-        {
-          "typeName": "todo_TodoCountOrderByAggregateInput",
-          "renameTo": "TodoCountOrderByAggregateInput"
-        },
-        {
-          "typeName": "todo_DateTimeWithAggregatesFilter",
-          "renameTo": "DateTimeWithAggregatesFilter"
+          "typeName": "todo_TodoOrderByWithRelationInput",
+          "renameTo": "TodoOrderByWithRelationInput"
         },
         {
           "typeName": "todo_TodoScalarWhereWithAggregatesInput",
           "renameTo": "TodoScalarWhereWithAggregatesInput"
         },
         {
-          "typeName": "todo_Bytes",
-          "renameTo": "Bytes"
-        },
-        {
-          "typeName": "todo_NestedBoolFilter",
-          "renameTo": "NestedBoolFilter"
-        },
-        {
-          "typeName": "todo_TodoWhereUniqueInput",
-          "renameTo": "TodoWhereUniqueInput"
-        },
-        {
-          "typeName": "todo_TodoScalarFieldEnum",
-          "renameTo": "TodoScalarFieldEnum"
-        },
-        {
-          "typeName": "todo_TodoMaxOrderByAggregateInput",
-          "renameTo": "TodoMaxOrderByAggregateInput"
-        },
-        {
-          "typeName": "todo_NestedIntWithAggregatesFilter",
-          "renameTo": "NestedIntWithAggregatesFilter"
-        },
-        {
-          "typeName": "todo_NestedStringWithAggregatesFilter",
-          "renameTo": "NestedStringWithAggregatesFilter"
-        },
-        {
-          "typeName": "todo_BoolFilter",
-          "renameTo": "BoolFilter"
-        },
-        {
-          "typeName": "todo_SortOrder",
-          "renameTo": "SortOrder"
-        },
-        {
-          "typeName": "todo_TodoOrderByWithRelationInput",
-          "renameTo": "TodoOrderByWithRelationInput"
-        },
-        {
-          "typeName": "todo_TodoCountAggregateOutputType",
-          "renameTo": "TodoCountAggregateOutputType"
-        },
-        {
-          "typeName": "todo_TodoMinAggregateOutputType",
-          "renameTo": "TodoMinAggregateOutputType"
-        },
-        {
-          "typeName": "todo_NestedFloatFilter",
-          "renameTo": "NestedFloatFilter"
-        },
-        {
-          "typeName": "todo_TodoCreateInput",
-          "renameTo": "TodoCreateInput"
-        },
-        {
-          "typeName": "todo_NestedDateTimeFilter",
-          "renameTo": "NestedDateTimeFilter"
-        },
-        {
-          "typeName": "todo_DateTimeFilter",
-          "renameTo": "DateTimeFilter"
-        },
-        {
-          "typeName": "todo_TodoWhereInput",
-          "renameTo": "TodoWhereInput"
-        },
-        {
-          "typeName": "todo_TodoAvgAggregateOutputType",
-          "renameTo": "TodoAvgAggregateOutputType"
-        },
-        {
-          "typeName": "todo_TodoGroupByOutputType",
-          "renameTo": "TodoGroupByOutputType"
-        },
-        {
-          "typeName": "todo_Json",
-          "renameTo": "Json"
-        },
-        {
-          "typeName": "todo_Decimal",
-          "renameTo": "Decimal"
-        },
-        {
-          "typeName": "todo_IntFilter",
-          "renameTo": "IntFilter"
-        },
-        {
-          "typeName": "todo_StringFilter",
-          "renameTo": "StringFilter"
-        },
-        {
-          "typeName": "todo_TodoSumAggregateOutputType",
-          "renameTo": "TodoSumAggregateOutputType"
-        },
-        {
-          "typeName": "todo_TodoMinOrderByAggregateInput",
-          "renameTo": "TodoMinOrderByAggregateInput"
-        },
-        {
-          "typeName": "todo_TodoSumOrderByAggregateInput",
-          "renameTo": "TodoSumOrderByAggregateInput"
-        },
-        {
-          "typeName": "todo_NestedBoolWithAggregatesFilter",
-          "renameTo": "NestedBoolWithAggregatesFilter"
-        },
-        {
-          "typeName": "todo_BoolWithAggregatesFilter",
-          "renameTo": "BoolWithAggregatesFilter"
+          "typeName": "todo_StringFieldUpdateOperationsInput",
+          "renameTo": "StringFieldUpdateOperationsInput"
         },
         {
           "typeName": "todo_BoolFieldUpdateOperationsInput",
           "renameTo": "BoolFieldUpdateOperationsInput"
         },
         {
+          "typeName": "todo_DateTimeFieldUpdateOperationsInput",
+          "renameTo": "DateTimeFieldUpdateOperationsInput"
+        },
+        {
+          "typeName": "todo_TodoUpdateManyMutationInput",
+          "renameTo": "TodoUpdateManyMutationInput"
+        },
+        {
+          "typeName": "todo_TodoUpdateInput",
+          "renameTo": "TodoUpdateInput"
+        },
+        {
+          "typeName": "todo_Json",
+          "renameTo": "Json"
+        },
+        {
+          "typeName": "todo_StringFilter",
+          "renameTo": "StringFilter"
+        },
+        {
+          "typeName": "todo_DateTimeFilter",
+          "renameTo": "DateTimeFilter"
+        },
+        {
+          "typeName": "todo_SortOrder",
+          "renameTo": "SortOrder"
+        },
+        {
+          "typeName": "todo_AggregateTodo",
+          "renameTo": "AggregateTodo"
+        },
+        {
+          "typeName": "todo_TodoCountOrderByAggregateInput",
+          "renameTo": "TodoCountOrderByAggregateInput"
+        },
+        {
+          "typeName": "todo_TodoOrderByWithAggregationInput",
+          "renameTo": "TodoOrderByWithAggregationInput"
+        },
+        {
+          "typeName": "todo_NestedBoolFilter",
+          "renameTo": "NestedBoolFilter"
+        },
+        {
+          "typeName": "todo_TodoMaxAggregateOutputType",
+          "renameTo": "TodoMaxAggregateOutputType"
+        },
+        {
+          "typeName": "todo_DateTimeWithAggregatesFilter",
+          "renameTo": "DateTimeWithAggregatesFilter"
+        },
+        {
+          "typeName": "todo_Decimal",
+          "renameTo": "Decimal"
+        },
+        {
+          "typeName": "todo_NestedStringFilter",
+          "renameTo": "NestedStringFilter"
+        },
+        {
+          "typeName": "todo_TodoWhereUniqueInput",
+          "renameTo": "TodoWhereUniqueInput"
+        },
+        {
+          "typeName": "todo_NestedStringWithAggregatesFilter",
+          "renameTo": "NestedStringWithAggregatesFilter"
+        },
+        {
+          "typeName": "todo_BoolWithAggregatesFilter",
+          "renameTo": "BoolWithAggregatesFilter"
+        },
+        {
+          "typeName": "todo_TodoGroupByOutputType",
+          "renameTo": "TodoGroupByOutputType"
+        },
+        {
+          "typeName": "todo_TodoScalarFieldEnum",
+          "renameTo": "TodoScalarFieldEnum"
+        },
+        {
+          "typeName": "todo_Todo",
+          "renameTo": "Todo"
+        },
+        {
+          "typeName": "todo_NestedIntFilter",
+          "renameTo": "NestedIntFilter"
+        },
+        {
+          "typeName": "todo_BoolFilter",
+          "renameTo": "BoolFilter"
+        },
+        {
+          "typeName": "todo_TodoMinAggregateOutputType",
+          "renameTo": "TodoMinAggregateOutputType"
+        },
+        {
+          "typeName": "todo_TodoCreateInput",
+          "renameTo": "TodoCreateInput"
+        },
+        {
+          "typeName": "todo_TodoCountAggregateOutputType",
+          "renameTo": "TodoCountAggregateOutputType"
+        },
+        {
+          "typeName": "todo_TodoMinOrderByAggregateInput",
+          "renameTo": "TodoMinOrderByAggregateInput"
+        },
+        {
+          "typeName": "todo_NestedBoolWithAggregatesFilter",
+          "renameTo": "NestedBoolWithAggregatesFilter"
+        },
+        {
+          "typeName": "todo_NestedDateTimeWithAggregatesFilter",
+          "renameTo": "NestedDateTimeWithAggregatesFilter"
+        },
+        {
           "typeName": "todo_AffectedRowsOutput",
           "renameTo": "AffectedRowsOutput"
+        },
+        {
+          "typeName": "todo_NestedDateTimeFilter",
+          "renameTo": "NestedDateTimeFilter"
+        },
+        {
+          "typeName": "todo_TodoWhereInput",
+          "renameTo": "TodoWhereInput"
+        },
+        {
+          "typeName": "todo_TodoMaxOrderByAggregateInput",
+          "renameTo": "TodoMaxOrderByAggregateInput"
+        },
+        {
+          "typeName": "todo_StringWithAggregatesFilter",
+          "renameTo": "StringWithAggregatesFilter"
+        },
+        {
+          "typeName": "todo_Bytes",
+          "renameTo": "Bytes"
         }
       ]
     },
     "enableGraphqlEndpoint": false,
     "operations": [
       {
-        "name": "Todo__CreateOneTodo",
-        "content": "mutation Todo__CreateOneTodo($title: String!) {\n  data: todo_createOneTodo(data: {title: $title}) {\n    id\n    title\n    completed\n    createdAt\n  }\n}\n",
-        "operationType": 1,
-        "variablesSchema": "{\"type\":\"object\",\"properties\":{\"title\":{\"type\":\"string\"}},\"additionalProperties\":false,\"required\":[\"title\"]}",
-        "responseSchema": "{\"type\":\"object\",\"properties\":{\"data\":{\"type\":\"object\",\"properties\":{\"data\":{\"type\":\"object\",\"properties\":{\"completed\":{\"type\":\"boolean\"},\"createdAt\":{\"type\":\"string\"},\"id\":{\"type\":\"integer\"},\"title\":{\"type\":\"string\"}},\"required\":[\"id\",\"title\",\"completed\",\"createdAt\"]}},\"additionalProperties\":false}},\"additionalProperties\":false}",
-        "cacheConfig": null,
-        "authenticationConfig": {
-          "authRequired": false
-        },
-        "liveQueryConfig": null,
-        "authorizationConfig": {
-          "claims": [],
-          "roleConfig": {
-            "requireMatchAll": [],
-            "requireMatchAny": [],
-            "denyMatchAll": [],
-            "denyMatchAny": []
-          }
-        },
-        "hooksConfiguration": {
-          "preResolve": false,
-          "postResolve": false,
-          "mutatingPreResolve": false,
-          "mutatingPostResolve": false,
-          "mockResolve": {
-            "enabled": false,
-            "subscriptionPollingIntervalMillis": 0
-          },
-          "httpTransportOnRequest": false,
-          "httpTransportOnResponse": false,
-          "customResolve": false,
-          "tsPathMap": null,
-          "onConnectionInit": false
-        },
-        "variablesConfiguration": {
-          "injectVariables": []
-        },
-        "internal": false,
-        "interpolationVariablesSchema": "{\"type\":\"object\",\"properties\":{\"title\":{\"type\":\"string\"}},\"additionalProperties\":false,\"required\":[\"title\"]}",
-        "postResolveTransformations": [],
-        "engine": 0,
-        "path": "Todo/CreateOneTodo",
-        "InternalVariablesSchema": "{\"type\":\"object\",\"properties\":{\"title\":{\"type\":\"string\"}},\"additionalProperties\":false,\"required\":[\"title\"]}",
-        "InjectedVariablesSchema": "{\"type\":\"object\",\"properties\":{\"title\":{\"type\":\"string\"}},\"additionalProperties\":false,\"required\":[\"title\"]}",
-        "OriginContent": "mutation TodoCreateOneTodo($title: String!) {\n  data: todo_createOneTodo(data: {title: $title}) {\n    id\n    title\n    completed\n    createdAt\n  }\n}"
-      },
-      {
-        "name": "Todo__DeleteOneTodo",
-        "content": "mutation Todo__DeleteOneTodo($id: Int!) {\n  data: todo_deleteOneTodo(where: {id: $id}) {\n    id\n  }\n}\n",
-        "operationType": 1,
-        "variablesSchema": "{\"type\":\"object\",\"properties\":{\"id\":{\"type\":\"integer\"}},\"additionalProperties\":false,\"required\":[\"id\"]}",
-        "responseSchema": "{\"type\":\"object\",\"properties\":{\"data\":{\"type\":\"object\",\"properties\":{\"data\":{\"type\":\"object\",\"properties\":{\"id\":{\"type\":\"integer\"}},\"required\":[\"id\"]}},\"additionalProperties\":false}},\"additionalProperties\":false}",
-        "cacheConfig": null,
-        "authenticationConfig": {
-          "authRequired": false
-        },
-        "liveQueryConfig": null,
-        "authorizationConfig": {
-          "claims": [],
-          "roleConfig": {
-            "requireMatchAll": [],
-            "requireMatchAny": [],
-            "denyMatchAll": [],
-            "denyMatchAny": []
-          }
-        },
-        "hooksConfiguration": {
-          "preResolve": false,
-          "postResolve": false,
-          "mutatingPreResolve": false,
-          "mutatingPostResolve": false,
-          "mockResolve": {
-            "enabled": false,
-            "subscriptionPollingIntervalMillis": 0
-          },
-          "httpTransportOnRequest": false,
-          "httpTransportOnResponse": false,
-          "customResolve": false,
-          "tsPathMap": null,
-          "onConnectionInit": false
-        },
-        "variablesConfiguration": {
-          "injectVariables": []
-        },
-        "internal": false,
-        "interpolationVariablesSchema": "{\"type\":\"object\",\"properties\":{\"id\":{\"type\":\"integer\"}},\"additionalProperties\":false,\"required\":[\"id\"]}",
-        "postResolveTransformations": [],
-        "engine": 0,
-        "path": "Todo/DeleteOneTodo",
-        "InternalVariablesSchema": "{\"type\":\"object\",\"properties\":{\"id\":{\"type\":\"integer\"}},\"additionalProperties\":false,\"required\":[\"id\"]}",
-        "InjectedVariablesSchema": "{\"type\":\"object\",\"properties\":{\"id\":{\"type\":\"integer\"}},\"additionalProperties\":false,\"required\":[\"id\"]}",
-        "OriginContent": "mutation TodoDeleteOneTodo($id: Int!) {\n  data: todo_deleteOneTodo(where: {id: $id}) {\n    id\n  }\n}"
-      },
-      {
-        "name": "Todo__GetManyTodo",
-        "content": "query Todo__GetManyTodo {\n  data: todo_findManyTodo {\n    id\n    title\n    completed\n    createdAt\n  }\n}\n",
+        "name": "GetOneTodo",
+        "content": "query GetOneTodo($id: String = \"default\") {\n  todo_findUniqueTodo(where: {id: $id}) {\n    completed\n    createdAt\n    id\n    title\n  }\n}\n",
         "operationType": 0,
-        "variablesSchema": "{\"type\":\"object\",\"additionalProperties\":false}",
-        "responseSchema": "{\"type\":\"object\",\"properties\":{\"data\":{\"type\":\"object\",\"properties\":{\"data\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"completed\":{\"type\":\"boolean\"},\"createdAt\":{\"type\":\"string\"},\"id\":{\"type\":\"integer\"},\"title\":{\"type\":\"string\"}},\"required\":[\"id\",\"title\",\"completed\",\"createdAt\"]}}},\"additionalProperties\":false,\"required\":[\"data\"]}},\"additionalProperties\":false}",
+        "variablesSchema": "{\"type\":\"object\",\"properties\":{\"id\":{\"type\":[\"string\",\"null\"]}},\"additionalProperties\":false}",
+        "responseSchema": "{\"type\":\"object\",\"properties\":{\"data\":{\"type\":\"object\",\"properties\":{\"todo_findUniqueTodo\":{\"type\":\"object\",\"properties\":{\"completed\":{\"type\":\"boolean\"},\"createdAt\":{\"type\":\"string\"},\"id\":{\"type\":\"string\"},\"title\":{\"type\":\"string\"}},\"required\":[\"completed\",\"createdAt\",\"id\",\"title\"]}},\"additionalProperties\":false}},\"additionalProperties\":false}",
         "cacheConfig": {
           "enabled": false,
           "maxAge": 600,
@@ -3384,107 +2940,13 @@
           "injectVariables": []
         },
         "internal": false,
-        "interpolationVariablesSchema": "{\"type\":\"object\",\"additionalProperties\":false}",
+        "interpolationVariablesSchema": "{\"type\":\"object\",\"properties\":{\"id\":{\"type\":[\"string\",\"null\"]}},\"additionalProperties\":false}",
         "postResolveTransformations": [],
         "engine": 0,
-        "path": "Todo/GetManyTodo",
-        "InternalVariablesSchema": "{\"type\":\"object\",\"additionalProperties\":false}",
-        "InjectedVariablesSchema": "{\"type\":\"object\",\"additionalProperties\":false}",
-        "OriginContent": "query TodoGetManyTodo {\n  data: todo_findManyTodo {\n    id\n    title\n    completed\n    createdAt\n  }\n}"
-      },
-      {
-        "name": "Todo__UpdateOneTodo",
-        "content": "mutation Todo__UpdateOneTodo($id: Int!, $title: String!) {\n  data: todo_updateOneTodo(data: {title: {set: $title}}, where: {id: $id}) {\n    id\n    title\n    completed\n    createdAt\n  }\n}\n",
-        "operationType": 1,
-        "variablesSchema": "{\"type\":\"object\",\"properties\":{\"id\":{\"type\":\"integer\"},\"title\":{\"type\":\"string\"}},\"additionalProperties\":false,\"required\":[\"id\",\"title\"]}",
-        "responseSchema": "{\"type\":\"object\",\"properties\":{\"data\":{\"type\":\"object\",\"properties\":{\"data\":{\"type\":\"object\",\"properties\":{\"completed\":{\"type\":\"boolean\"},\"createdAt\":{\"type\":\"string\"},\"id\":{\"type\":\"integer\"},\"title\":{\"type\":\"string\"}},\"required\":[\"id\",\"title\",\"completed\",\"createdAt\"]}},\"additionalProperties\":false}},\"additionalProperties\":false}",
-        "cacheConfig": null,
-        "authenticationConfig": {
-          "authRequired": false
-        },
-        "liveQueryConfig": null,
-        "authorizationConfig": {
-          "claims": [],
-          "roleConfig": {
-            "requireMatchAll": [],
-            "requireMatchAny": [],
-            "denyMatchAll": [],
-            "denyMatchAny": []
-          }
-        },
-        "hooksConfiguration": {
-          "preResolve": false,
-          "postResolve": false,
-          "mutatingPreResolve": false,
-          "mutatingPostResolve": false,
-          "mockResolve": {
-            "enabled": false,
-            "subscriptionPollingIntervalMillis": 0
-          },
-          "httpTransportOnRequest": false,
-          "httpTransportOnResponse": false,
-          "customResolve": false,
-          "tsPathMap": null,
-          "onConnectionInit": false
-        },
-        "variablesConfiguration": {
-          "injectVariables": []
-        },
-        "internal": false,
-        "interpolationVariablesSchema": "{\"type\":\"object\",\"properties\":{\"id\":{\"type\":\"integer\"},\"title\":{\"type\":\"string\"}},\"additionalProperties\":false,\"required\":[\"id\",\"title\"]}",
-        "postResolveTransformations": [],
-        "engine": 0,
-        "path": "Todo/UpdateOneTodo",
-        "InternalVariablesSchema": "{\"type\":\"object\",\"properties\":{\"id\":{\"type\":\"integer\"},\"title\":{\"type\":\"string\"}},\"additionalProperties\":false,\"required\":[\"id\",\"title\"]}",
-        "InjectedVariablesSchema": "{\"type\":\"object\",\"properties\":{\"id\":{\"type\":\"integer\"},\"title\":{\"type\":\"string\"}},\"additionalProperties\":false,\"required\":[\"id\",\"title\"]}",
-        "OriginContent": "mutation UpdateTodoTitle($id: Int!, $title: String!) {\n  data: todo_updateOneTodo(\n    data: {title: {set: $title}}\n    where: {id: $id}\n  ) {\n    \n    id\n    title\n    completed\n    createdAt\n  }\n}"
-      },
-      {
-        "name": "Todo__UpdateTodoCompleted",
-        "content": "mutation Todo__UpdateTodoCompleted($id: Int!, $completed: Boolean!) {\n  data: todo_updateOneTodo(data: {completed: {set: $completed}}, where: {id: $id}) {\n    id\n    title\n    completed\n    createdAt\n  }\n}\n",
-        "operationType": 1,
-        "variablesSchema": "{\"type\":\"object\",\"properties\":{\"completed\":{\"type\":\"boolean\"},\"id\":{\"type\":\"integer\"}},\"additionalProperties\":false,\"required\":[\"id\",\"completed\"]}",
-        "responseSchema": "{\"type\":\"object\",\"properties\":{\"data\":{\"type\":\"object\",\"properties\":{\"data\":{\"type\":\"object\",\"properties\":{\"completed\":{\"type\":\"boolean\"},\"createdAt\":{\"type\":\"string\"},\"id\":{\"type\":\"integer\"},\"title\":{\"type\":\"string\"}},\"required\":[\"id\",\"title\",\"completed\",\"createdAt\"]}},\"additionalProperties\":false}},\"additionalProperties\":false}",
-        "cacheConfig": null,
-        "authenticationConfig": {
-          "authRequired": false
-        },
-        "liveQueryConfig": null,
-        "authorizationConfig": {
-          "claims": [],
-          "roleConfig": {
-            "requireMatchAll": [],
-            "requireMatchAny": [],
-            "denyMatchAll": [],
-            "denyMatchAny": []
-          }
-        },
-        "hooksConfiguration": {
-          "preResolve": false,
-          "postResolve": false,
-          "mutatingPreResolve": false,
-          "mutatingPostResolve": false,
-          "mockResolve": {
-            "enabled": false,
-            "subscriptionPollingIntervalMillis": 0
-          },
-          "httpTransportOnRequest": false,
-          "httpTransportOnResponse": false,
-          "customResolve": false,
-          "tsPathMap": null,
-          "onConnectionInit": false
-        },
-        "variablesConfiguration": {
-          "injectVariables": []
-        },
-        "internal": false,
-        "interpolationVariablesSchema": "{\"type\":\"object\",\"properties\":{\"completed\":{\"type\":\"boolean\"},\"id\":{\"type\":\"integer\"}},\"additionalProperties\":false,\"required\":[\"id\",\"completed\"]}",
-        "postResolveTransformations": [],
-        "engine": 0,
-        "path": "Todo/UpdateTodoCompleted",
-        "InternalVariablesSchema": "{\"type\":\"object\",\"properties\":{\"completed\":{\"type\":\"boolean\"},\"id\":{\"type\":\"integer\"}},\"additionalProperties\":false,\"required\":[\"id\",\"completed\"]}",
-        "InjectedVariablesSchema": "{\"type\":\"object\",\"properties\":{\"completed\":{\"type\":\"boolean\"},\"id\":{\"type\":\"integer\"}},\"additionalProperties\":false,\"required\":[\"id\",\"completed\"]}",
-        "OriginContent": "mutation UpdateTodoCompleted($id: Int!, $completed: Boolean!) {\n  data: todo_updateOneTodo(data: {completed: {set: $completed}}, where: {id: $id}) {\n    id\n    title\n    completed\n    createdAt\n  }\n}"
+        "path": "GetOneTodo",
+        "InternalVariablesSchema": "{\"type\":\"object\",\"properties\":{\"id\":{\"type\":[\"string\",\"null\"]}},\"additionalProperties\":false}",
+        "InjectedVariablesSchema": "{\"type\":\"object\",\"properties\":{\"id\":{\"type\":[\"string\",\"null\"]}},\"additionalProperties\":false}",
+        "OriginContent": "query MyQuery($id: String = \"default\") {\n  todo_findUniqueTodo(where: {id: $id}) {\n    completed\n    createdAt\n    id\n    title\n  }\n}"
       }
     ],
     "invalidOperationNames": null,

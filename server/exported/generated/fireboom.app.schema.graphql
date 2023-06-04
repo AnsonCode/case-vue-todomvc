@@ -25,28 +25,6 @@ type Mutation {
 
 
 
-input todo_NestedIntFilter {
-  equals: Int
-  in: [Int]
-  notIn: [Int]
-  lt: Int
-  lte: Int
-  gt: Int
-  gte: Int
-  not: todo_NestedIntFilter
-}
-
-input todo_IntFilter {
-  equals: Int
-  in: [Int]
-  notIn: [Int]
-  lt: Int
-  lte: Int
-  gt: Int
-  gte: Int
-  not: todo_NestedIntFilter
-}
-
 input todo_NestedStringFilter {
   equals: String
   in: [String]
@@ -111,7 +89,7 @@ input todo_TodoWhereInput {
   AND: todo_TodoWhereInput
   OR: [todo_TodoWhereInput]
   NOT: todo_TodoWhereInput
-  id: todo_IntFilter
+  id: todo_StringFilter
   title: todo_StringFilter
   completed: todo_BoolFilter
   createdAt: todo_DateTimeFilter
@@ -130,7 +108,7 @@ input todo_TodoOrderByWithRelationInput {
 }
 
 input todo_TodoWhereUniqueInput {
-  id: Int
+  id: String
 }
 
 enum todo_TodoScalarFieldEnum {
@@ -141,7 +119,7 @@ enum todo_TodoScalarFieldEnum {
 }
 
 type todo_Todo {
-  id: Int!
+  id: String!
   title: String!
   completed: Boolean!
   createdAt: DateTime!
@@ -157,18 +135,8 @@ type todo_TodoCountAggregateOutputType {
   _join: Query!
 }
 
-type todo_TodoAvgAggregateOutputType {
-  id: Float
-  _join: Query!
-}
-
-type todo_TodoSumAggregateOutputType {
-  id: Int
-  _join: Query!
-}
-
 type todo_TodoMinAggregateOutputType {
-  id: Int
+  id: String
   title: String
   completed: Boolean
   createdAt: DateTime
@@ -176,7 +144,7 @@ type todo_TodoMinAggregateOutputType {
 }
 
 type todo_TodoMaxAggregateOutputType {
-  id: Int
+  id: String
   title: String
   completed: Boolean
   createdAt: DateTime
@@ -185,8 +153,6 @@ type todo_TodoMaxAggregateOutputType {
 
 type todo_AggregateTodo {
   _count: todo_TodoCountAggregateOutputType
-  _avg: todo_TodoAvgAggregateOutputType
-  _sum: todo_TodoSumAggregateOutputType
   _min: todo_TodoMinAggregateOutputType
   _max: todo_TodoMaxAggregateOutputType
   _join: Query!
@@ -197,10 +163,6 @@ input todo_TodoCountOrderByAggregateInput {
   title: todo_SortOrder
   completed: todo_SortOrder
   createdAt: todo_SortOrder
-}
-
-input todo_TodoAvgOrderByAggregateInput {
-  id: todo_SortOrder
 }
 
 input todo_TodoMaxOrderByAggregateInput {
@@ -217,34 +179,17 @@ input todo_TodoMinOrderByAggregateInput {
   createdAt: todo_SortOrder
 }
 
-input todo_TodoSumOrderByAggregateInput {
-  id: todo_SortOrder
-}
-
 input todo_TodoOrderByWithAggregationInput {
   id: todo_SortOrder
   title: todo_SortOrder
   completed: todo_SortOrder
   createdAt: todo_SortOrder
   _count: todo_TodoCountOrderByAggregateInput
-  _avg: todo_TodoAvgOrderByAggregateInput
   _max: todo_TodoMaxOrderByAggregateInput
   _min: todo_TodoMinOrderByAggregateInput
-  _sum: todo_TodoSumOrderByAggregateInput
 }
 
-input todo_NestedFloatFilter {
-  equals: Float
-  in: [Float]
-  notIn: [Float]
-  lt: Float
-  lte: Float
-  gt: Float
-  gte: Float
-  not: todo_NestedFloatFilter
-}
-
-input todo_NestedIntWithAggregatesFilter {
+input todo_NestedIntFilter {
   equals: Int
   in: [Int]
   notIn: [Int]
@@ -252,28 +197,7 @@ input todo_NestedIntWithAggregatesFilter {
   lte: Int
   gt: Int
   gte: Int
-  not: todo_NestedIntWithAggregatesFilter
-  _count: todo_NestedIntFilter
-  _avg: todo_NestedFloatFilter
-  _sum: todo_NestedIntFilter
-  _min: todo_NestedIntFilter
-  _max: todo_NestedIntFilter
-}
-
-input todo_IntWithAggregatesFilter {
-  equals: Int
-  in: [Int]
-  notIn: [Int]
-  lt: Int
-  lte: Int
-  gt: Int
-  gte: Int
-  not: todo_NestedIntWithAggregatesFilter
-  _count: todo_NestedIntFilter
-  _avg: todo_NestedFloatFilter
-  _sum: todo_NestedIntFilter
-  _min: todo_NestedIntFilter
-  _max: todo_NestedIntFilter
+  not: todo_NestedIntFilter
 }
 
 input todo_NestedStringWithAggregatesFilter {
@@ -358,26 +282,25 @@ input todo_TodoScalarWhereWithAggregatesInput {
   AND: todo_TodoScalarWhereWithAggregatesInput
   OR: [todo_TodoScalarWhereWithAggregatesInput]
   NOT: todo_TodoScalarWhereWithAggregatesInput
-  id: todo_IntWithAggregatesFilter
+  id: todo_StringWithAggregatesFilter
   title: todo_StringWithAggregatesFilter
   completed: todo_BoolWithAggregatesFilter
   createdAt: todo_DateTimeWithAggregatesFilter
 }
 
 type todo_TodoGroupByOutputType {
-  id: Int!
+  id: String!
   title: String!
   completed: Boolean!
   createdAt: DateTime!
   _count: todo_TodoCountAggregateOutputType
-  _avg: todo_TodoAvgAggregateOutputType
-  _sum: todo_TodoSumAggregateOutputType
   _min: todo_TodoMinAggregateOutputType
   _max: todo_TodoMaxAggregateOutputType
   _join: Query!
 }
 
 input todo_TodoCreateInput {
+  id: String!
   title: String!
   completed: Boolean
   createdAt: DateTime
@@ -396,12 +319,14 @@ input todo_DateTimeFieldUpdateOperationsInput {
 }
 
 input todo_TodoUpdateInput {
+  id: todo_StringFieldUpdateOperationsInput
   title: todo_StringFieldUpdateOperationsInput
   completed: todo_BoolFieldUpdateOperationsInput
   createdAt: todo_DateTimeFieldUpdateOperationsInput
 }
 
 input todo_TodoUpdateManyMutationInput {
+  id: todo_StringFieldUpdateOperationsInput
   title: todo_StringFieldUpdateOperationsInput
   completed: todo_BoolFieldUpdateOperationsInput
   createdAt: todo_DateTimeFieldUpdateOperationsInput
@@ -424,59 +349,6 @@ scalar todo_Decimal
 
 scalar todo_Bytes
 
-type system_QueryGetAllRoles {
-  code: String
-  remark: String
-  _join: Query!
-}
-
-type system_QueryGetRoleBindApis {
-  id: Int
-  title: String
-  updateTime: String
-  roles: String
-  content: String
-  operationType: String
-  restUrl: String
-  roleType: String
-  enabled: Boolean
-  illegal: Boolean
-  method: String
-  remark: String
-  createTime: String
-  deleteTime: String
-  isPublic: Boolean
-  liveQuery: Boolean
-  _join: Query!
-}
-
-enum system_Query_getRoleBindApis_roleType {
-  requireMatchAll
-  requireMatchAny
-  denyMatchAll
-  denyMatchAny
-}
-
-type system_QueryGetAllApis {
-  content: String
-  illegal: Boolean
-  restUrl: String
-  deleteTime: String
-  roles: String
-  title: String
-  createTime: String
-  enabled: Boolean
-  liveQuery: Boolean
-  method: String
-  updateTime: String
-  id: Int
-  isPublic: Boolean
-  operationType: String
-  remark: String
-  roleType: String
-  _join: Query!
-}
-
 type system_MutationBindRoleApis {
   count: Int
   _join: Query!
@@ -494,6 +366,59 @@ enum system_POSTApiV1RoleBindApiInput_roleType {
   requireMatchAny
   denyMatchAll
   denyMatchAny
+}
+
+type system_QueryGetAllRoles {
+  code: String
+  remark: String
+  _join: Query!
+}
+
+type system_QueryGetRoleBindApis {
+  liveQuery: Boolean
+  method: String
+  title: String
+  illegal: Boolean
+  operationType: String
+  restUrl: String
+  roles: String
+  content: String
+  deleteTime: String
+  id: Int
+  remark: String
+  roleType: String
+  updateTime: String
+  createTime: String
+  enabled: Boolean
+  isPublic: Boolean
+  _join: Query!
+}
+
+enum system_Query_getRoleBindApis_roleType {
+  requireMatchAll
+  requireMatchAny
+  denyMatchAll
+  denyMatchAny
+}
+
+type system_QueryGetAllApis {
+  title: String
+  enabled: Boolean
+  operationType: String
+  roleType: String
+  restUrl: String
+  roles: String
+  updateTime: String
+  id: Int
+  illegal: Boolean
+  remark: String
+  createTime: String
+  deleteTime: String
+  method: String
+  content: String
+  isPublic: Boolean
+  liveQuery: Boolean
+  _join: Query!
 }
 
 directive @rbac(

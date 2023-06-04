@@ -1,8 +1,8 @@
-query MyQuery($id: Int = 10) {
+query MyQuery($id: String = "default") {
   todo_findUniqueTodo(where: {id: $id}) {
     completed
     createdAt
     id
     title
   }
-} 
+}

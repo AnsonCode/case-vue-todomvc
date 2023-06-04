@@ -46,236 +46,19 @@
         ]
       }
     },
-    "/operations/Todo/CreateOneTodo": {
-      "post": {
-        "description": "```graphql\nmutation TodoCreateOneTodo($title: String!) {\n  data: todo_createOneTodo(data: {title: $title}) {\n    id\n    title\n    completed\n    createdAt\n  }\n}\n```",
-        "operationId": "/operations/Todo/CreateOneTodo",
-        "requestBody": {
-          "content": {
-            "application/json": {
-              "schema": {
-                "additionalProperties": false,
-                "properties": {
-                  "title": {
-                    "type": "string"
-                  }
-                },
-                "required": [
-                  "title"
-                ],
-                "type": "object"
-              }
-            }
-          }
-        },
-        "responses": {
-          "200": {
-            "content": {
-              "application/json": {
-                "schema": {
-                  "additionalProperties": false,
-                  "properties": {
-                    "data": {
-                      "additionalProperties": false,
-                      "properties": {
-                        "data": {
-                          "properties": {
-                            "completed": {
-                              "type": "boolean"
-                            },
-                            "createdAt": {
-                              "type": "string"
-                            },
-                            "id": {
-                              "type": "integer"
-                            },
-                            "title": {
-                              "type": "string"
-                            }
-                          },
-                          "required": [
-                            "id",
-                            "title",
-                            "completed",
-                            "createdAt"
-                          ],
-                          "type": "object"
-                        }
-                      },
-                      "type": "object"
-                    }
-                  },
-                  "type": "object"
-                }
-              }
-            },
-            "description": "OK"
-          },
-          "400": {
-            "description": "Bad Request"
-          }
-        },
-        "security": [],
-        "summary": "POST /operations/Todo/CreateOneTodo",
-        "tags": [
-          "Todo"
-        ]
-      }
-    },
-    "/operations/Todo/DeleteOneTodo": {
-      "post": {
-        "description": "```graphql\nmutation TodoDeleteOneTodo($id: Int!) {\n  data: todo_deleteOneTodo(where: {id: $id}) {\n    id\n  }\n}\n```",
-        "operationId": "/operations/Todo/DeleteOneTodo",
-        "requestBody": {
-          "content": {
-            "application/json": {
-              "schema": {
-                "additionalProperties": false,
-                "properties": {
-                  "id": {
-                    "type": "integer"
-                  }
-                },
-                "required": [
-                  "id"
-                ],
-                "type": "object"
-              }
-            }
-          }
-        },
-        "responses": {
-          "200": {
-            "content": {
-              "application/json": {
-                "schema": {
-                  "additionalProperties": false,
-                  "properties": {
-                    "data": {
-                      "additionalProperties": false,
-                      "properties": {
-                        "data": {
-                          "properties": {
-                            "id": {
-                              "type": "integer"
-                            }
-                          },
-                          "required": [
-                            "id"
-                          ],
-                          "type": "object"
-                        }
-                      },
-                      "type": "object"
-                    }
-                  },
-                  "type": "object"
-                }
-              }
-            },
-            "description": "OK"
-          },
-          "400": {
-            "description": "Bad Request"
-          }
-        },
-        "security": [],
-        "summary": "POST /operations/Todo/DeleteOneTodo",
-        "tags": [
-          "Todo"
-        ]
-      }
-    },
-    "/operations/Todo/GetManyTodo": {
+    "/operations/GetOneTodo": {
       "get": {
-        "description": "```graphql\nquery TodoGetManyTodo {\n  data: todo_findManyTodo {\n    id\n    title\n    completed\n    createdAt\n  }\n}\n```",
-        "operationId": "/operations/Todo/GetManyTodo",
-        "responses": {
-          "200": {
-            "content": {
-              "application/json": {
-                "schema": {
-                  "additionalProperties": false,
-                  "properties": {
-                    "data": {
-                      "additionalProperties": false,
-                      "properties": {
-                        "data": {
-                          "items": {
-                            "properties": {
-                              "completed": {
-                                "type": "boolean"
-                              },
-                              "createdAt": {
-                                "type": "string"
-                              },
-                              "id": {
-                                "type": "integer"
-                              },
-                              "title": {
-                                "type": "string"
-                              }
-                            },
-                            "required": [
-                              "id",
-                              "title",
-                              "completed",
-                              "createdAt"
-                            ],
-                            "type": "object"
-                          },
-                          "type": "array"
-                        }
-                      },
-                      "required": [
-                        "data"
-                      ],
-                      "type": "object"
-                    }
-                  },
-                  "type": "object"
-                }
-              }
-            },
-            "description": "OK"
-          },
-          "400": {
-            "description": "Bad Request"
-          }
-        },
-        "security": [],
-        "summary": "GET /operations/Todo/GetManyTodo",
-        "tags": [
-          "Todo"
-        ]
-      }
-    },
-    "/operations/Todo/UpdateOneTodo": {
-      "post": {
-        "description": "```graphql\nmutation UpdateTodoTitle($id: Int!, $title: String!) {\n  data: todo_updateOneTodo(\n    data: {title: {set: $title}}\n    where: {id: $id}\n  ) {\n    \n    id\n    title\n    completed\n    createdAt\n  }\n}\n```",
-        "operationId": "/operations/Todo/UpdateOneTodo",
-        "requestBody": {
-          "content": {
-            "application/json": {
-              "schema": {
-                "additionalProperties": false,
-                "properties": {
-                  "id": {
-                    "type": "integer"
-                  },
-                  "title": {
-                    "type": "string"
-                  }
-                },
-                "required": [
-                  "id",
-                  "title"
-                ],
-                "type": "object"
-              }
+        "description": "```graphql\nquery MyQuery($id: String = \"default\") {\n  todo_findUniqueTodo(where: {id: $id}) {\n    completed\n    createdAt\n    id\n    title\n  }\n}\n```",
+        "operationId": "/operations/GetOneTodo",
+        "parameters": [
+          {
+            "in": "query",
+            "name": "id",
+            "schema": {
+              "type": "string"
             }
           }
-        },
+        ],
         "responses": {
           "200": {
             "content": {
@@ -286,7 +69,7 @@
                     "data": {
                       "additionalProperties": false,
                       "properties": {
-                        "data": {
+                        "todo_findUniqueTodo": {
                           "properties": {
                             "completed": {
                               "type": "boolean"
@@ -295,17 +78,17 @@
                               "type": "string"
                             },
                             "id": {
-                              "type": "integer"
+                              "type": "string"
                             },
                             "title": {
                               "type": "string"
                             }
                           },
                           "required": [
-                            "id",
-                            "title",
                             "completed",
-                            "createdAt"
+                            "createdAt",
+                            "id",
+                            "title"
                           ],
                           "type": "object"
                         }
@@ -324,89 +107,9 @@
           }
         },
         "security": [],
-        "summary": "POST /operations/Todo/UpdateOneTodo",
+        "summary": "GET /operations/GetOneTodo",
         "tags": [
-          "Todo"
-        ]
-      }
-    },
-    "/operations/Todo/UpdateTodoCompleted": {
-      "post": {
-        "description": "```graphql\nmutation UpdateTodoCompleted($id: Int!, $completed: Boolean!) {\n  data: todo_updateOneTodo(data: {completed: {set: $completed}}, where: {id: $id}) {\n    id\n    title\n    completed\n    createdAt\n  }\n}\n```",
-        "operationId": "/operations/Todo/UpdateTodoCompleted",
-        "requestBody": {
-          "content": {
-            "application/json": {
-              "schema": {
-                "additionalProperties": false,
-                "properties": {
-                  "completed": {
-                    "type": "boolean"
-                  },
-                  "id": {
-                    "type": "integer"
-                  }
-                },
-                "required": [
-                  "id",
-                  "completed"
-                ],
-                "type": "object"
-              }
-            }
-          }
-        },
-        "responses": {
-          "200": {
-            "content": {
-              "application/json": {
-                "schema": {
-                  "additionalProperties": false,
-                  "properties": {
-                    "data": {
-                      "additionalProperties": false,
-                      "properties": {
-                        "data": {
-                          "properties": {
-                            "completed": {
-                              "type": "boolean"
-                            },
-                            "createdAt": {
-                              "type": "string"
-                            },
-                            "id": {
-                              "type": "integer"
-                            },
-                            "title": {
-                              "type": "string"
-                            }
-                          },
-                          "required": [
-                            "id",
-                            "title",
-                            "completed",
-                            "createdAt"
-                          ],
-                          "type": "object"
-                        }
-                      },
-                      "type": "object"
-                    }
-                  },
-                  "type": "object"
-                }
-              }
-            },
-            "description": "OK"
-          },
-          "400": {
-            "description": "Bad Request"
-          }
-        },
-        "security": [],
-        "summary": "POST /operations/Todo/UpdateTodoCompleted",
-        "tags": [
-          "Todo"
+          "Others"
         ]
       }
     }
